@@ -1,41 +1,32 @@
 import { useState } from 'react'
-import './App.css'
-import image from './assets/img/download.jpg'
-import Footer from './Components/footer'
-import Header from './Components/header'
-import Navbar from './Components/navbar'
+import { icons } from 'react-icons/lib'
+import { SideBarMenu } from './Components/SideBarMenu'
+import { SideBarMenuCard, SideBarMenuItem } from './Types/types'
+import { FcAdvertising } from 'react-icons/fc'
+import profileImage from './assets/img/download.jpg'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const items:SideBarMenuItem[] = [
+    {
+      id:'1',
+      label: 'Hola',
+      icon: FcAdvertising,
+      url: "/",
+    },
+  ];
 
+  const card: SideBarMenuCard = {
+    id: "card01",
+    displayName : "Joesang Chang",
+    title: "Developer",
+    photoUrl: profileImage,
+    Url: "/"
+  };
   return (
-    <div className="App">
-      <nav>
-        <Navbar></Navbar>
-      </nav>
-
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={image} className="logo" alt="logo" />
-        </a>
-      </div>
-      <div>
-        <Header></Header>
-
-      </div>
-      <h1>Welcome to my Portfolio</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          Ver {count}
-        </button>
-
-      </div>
-      <p className="read-the-docs">
-        Created June-2023
-        <Footer></Footer>
-      </p>
-    </div>
-  )
+  <div>
+    <SideBarMenu items={items} card={card}></SideBarMenu>
+  </div>
+  );
 }
 
 export default App
