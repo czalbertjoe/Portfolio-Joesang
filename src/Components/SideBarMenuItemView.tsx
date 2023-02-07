@@ -1,5 +1,6 @@
 import { SideBarMenuItem } from "../Types/types"
 import { classNames } from "../assets/Util/classes"
+import "./SideBarMenuItemView.scss"
 
 interface SideBarMenuItemViewProps{
     item: SideBarMenuItem,
@@ -10,9 +11,10 @@ export default function SideBarMenuItemView({
     item,
     isOpen,
 }: SideBarMenuItemViewProps){
-    return <div className="SideBarMenuItem">
+    return(
+     <div className="SideBarMenuItemView">
         <a href={item.url}>
-            <div className={classNames('ItemContent', isOpen? '': 'collapsed')}>
+            <div className={classNames("ItemContent", isOpen ? "" : "collapsed")}>
                 <div className="icon">
                     <item.icon size="32" />
                 </div>
@@ -20,5 +22,6 @@ export default function SideBarMenuItemView({
             </div>
         </a>
         { !isOpen? <div className="tooltip">{item.label}</div> : ""}
-    </div>  
+    </div> 
+    ) 
 }

@@ -19,4 +19,17 @@
     &.collapsed{
         width: 68px;
     }
+
+    .menuButton {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .hamburguerIcon {
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        color: aliceblue;
+        padding: 10px;
+        width: 68px;
+    }
 }
