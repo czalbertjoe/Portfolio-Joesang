@@ -1,20 +1,18 @@
 @import './commonds.scss';
 
 .SideBarMenuItemView {
-    text-align: left;
+    text-align: center;
     display: flex;
     align-items: center;
     margin: 0 5px
    
-    a {
+    a{
         color: antiquewhite;
         text-decoration: none;
         display: block;
         padding: 10px;
         width: 100%;
         border-radius: 5px; 
-
-    
     }
     .ItemContent {
         display: flex;
@@ -29,19 +27,23 @@
         &.collapsed{
             width: 35px;
         }
+        
         .icon{
-            width: 32px;
+            width: 40px;
             height: 32px;
+            margin-top: 10%;
         }
         .label {
             font-weight: 500;
             margin-left: 10px;
             overflow: hidden;
+            margin-top: 10%;
         }
+        
     }
     &:hover {
-        background-color: #325ba8;
-        color: aliceblue;
+        background-color: #403a63;
+        color: rgb(41, 62, 78)
 
     }
     &:hover {

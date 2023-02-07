@@ -1,0 +1,4 @@
+
+   Esto va en App.tsx
+   
+    <SideBarMenu items={items} card={card}></SideBarMenu>

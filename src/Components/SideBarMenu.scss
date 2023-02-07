@@ -1,8 +1,8 @@
 @import './commonds.scss';
 
 .SideBarMenu {
-    background-color: #222;
-    color: aliceblue;
+    background-color: #1a1a24;
+    color: rgb(181, 208, 226);
     position: absolute;
     left: 0;
     top: 0;
@@ -13,23 +13,23 @@
     @include transition(width);
 
     &.expanded {
-        width: 300px;
+        width: 330px;
     }
 
     &.collapsed{
-        width: 68px;
+        width: 70px;
     }
 
     .menuButton {
         display: flex;
         justify-content: flex-end;
     }
-    .hamburguerIcon {
+    .NavIcon {
         cursor: pointer;
         border: none;
         background-color: transparent;
-        color: aliceblue;
-        padding: 10px;
+        color: rgb(184, 209, 231);
+        padding: 15px;
         width: 68px;
     }
 }
