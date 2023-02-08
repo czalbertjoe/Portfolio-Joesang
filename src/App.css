@@ -1,3 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body,button,textarea,input{
+  font-family:'Courier New', Courier, monospace;
+  font-size:medium;
+}
+body{
+  background-image: linear-gradient(190deg, #051227, #1f4b8f, #1d8391, #c4722e);
+  color: #a5da81;
+}
+h1, h2, h3{
+  color: #a5da81; 
+  font-weight: lighter;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+/* Reusable css classes*/
+.section_title{
+  font-size: large;
+}
+.section_subtitle{
+  font-size: small;
+  display: block;
+  margin-bottom: 4rem;
+}
+.section_title, .section_subtitle{
+  text-align: center;
+}
+
+/* Layout*/
+.container{
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid{
+  display: grid;
+  gap: 1.5rem;
+}
+
+/* Button*/
+button{
+  display: inline-block;
+  background-color: #a5da81;
+  color: #1f4b8f;
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  font-weight: 100;
+}
+.button:hover{
+  background-color: rgb(58, 53, 63);
+}
+.button_icon{
+  margin-left:0.5em;
+}
+
+
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +117,19 @@
 
 .read-the-docs {
   color: #888;
+}
+@media screen and (max-width: 992px){ 
+  .container{
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+}
+@media screen and (max-width: 768px){ 
+
+}
+@media screen and (max-width: 576px){
+
+}
+@media screen and (max-width: 350px){
+
 }

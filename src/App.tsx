@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { icons } from 'react-icons/lib'
+import "./App.css"
 import { SideBarMenu } from './Components/SideBarMenu'
 import { SideBarMenuCard, SideBarMenuItem } from './Types/types'
 import { FcAbout, FcBusiness, FcAddressBook, FcHome } from 'react-icons/fc'
@@ -45,7 +46,9 @@ function App() {
   };
   return (
   <div>
-    <Hom/>
+    <Hom></Hom>
+    
+    <SideBarMenu items={items} card={card}></SideBarMenu>
   </div>
   );
 }

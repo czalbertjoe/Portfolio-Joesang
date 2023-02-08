@@ -1,8 +1,8 @@
 @import './commonds.scss';
 
 .SideBarMenu {
-    background-color: #1a1a24;
-    color: rgb(181, 208, 226);
+    background-image: radial-gradient(190deg, #051227, #1f4b8f, #1d8391, #96253d);
+    color: rgb(169, 231, 178);
     position: absolute;
     left: 0;
     top: 0;
@@ -13,11 +13,11 @@
     @include transition(width);
 
     &.expanded {
-        width: 330px;
+        width: 280px;
     }
 
     &.collapsed{
-        width: 70px;
+        width: 80px;
     }
 
     .menuButton {
@@ -31,5 +31,9 @@
         color: rgb(184, 209, 231);
         padding: 15px;
         width: 68px;
+    }
+    @media screen and (max-width: 768px) {
+        top: initial;
+        bottom: 0;
     }
 }
