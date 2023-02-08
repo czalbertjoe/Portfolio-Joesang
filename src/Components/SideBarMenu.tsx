@@ -20,7 +20,6 @@ export function SideBarMenu({ items, card }: SideBarMenuProps) {
     function handleClick() {
         setIsOPen(!isOpen)
     }
-
     return <div className={classNames('SideBarMenu', isOpen ? "expanded" : "collapsed")}>
         <div className="menuButton">
             <button className="NavIcon" onClick={handleClick}>

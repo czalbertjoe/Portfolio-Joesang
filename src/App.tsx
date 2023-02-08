@@ -7,6 +7,8 @@ import { FcAbout, FcBusiness, FcAddressBook, FcHome } from 'react-icons/fc'
 import profileImage from './assets/Img/MyPhoto.jpg'
 import Social from './Components/home/Social'
 import Hom from './Components/home/Hom'
+import { About } from './Components/about/About'
+
 
 
 function App() {
@@ -46,9 +48,9 @@ function App() {
   };
   return (
   <div>
-    <Hom></Hom>
-    
     <SideBarMenu items={items} card={card}></SideBarMenu>
+    <Hom></Hom>
+    <About></About>
   </div>
   );
 }

@@ -18,11 +18,13 @@
 
     &.collapsed{
         width: 80px;
+          
     }
 
     .menuButton {
         display: flex;
         justify-content: flex-end;
+        
     }
     .NavIcon {
         cursor: pointer;
@@ -32,8 +34,5 @@
         padding: 15px;
         width: 68px;
     }
-    @media screen and (max-width: 768px) {
-        top: initial;
-        bottom: 0;
-    }
+   
 }
