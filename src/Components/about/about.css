@@ -48,6 +48,7 @@
     font-size: large;
 }
 
+/* For large devices */
 @media screen and (max-width: 992px) {
     .about_container {
         grid-template-columns: 2fr;
@@ -86,6 +87,7 @@
     }
 }
 
+/* For small devices */
 @media screen and (max-width: 350px) {
 
     .about_info {

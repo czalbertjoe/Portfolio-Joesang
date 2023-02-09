@@ -9,6 +9,8 @@ import Social from './Components/home/Social'
 import Hom from './Components/home/Hom'
 import { About } from './Components/about/About'
 import Skills from './Components/skills/Skills'
+import Services from './Components/services/Services'
+import Qualifications from './Components/qualifications/Qualifications'
 
 
 
@@ -54,6 +56,8 @@ function App() {
     <Hom></Hom>
     <About></About>
     <Skills></Skills>
+    <Services></Services>
+    <Qualifications></Qualifications>
   </div>
   );
 }
