@@ -9,11 +9,11 @@ export const Hom = () => {
     <section className="home section" id="home">
       <div className="home_container container grid">
         <div className="home_content grid">
-           <Social/>
-           <div className="home_img"></div>
-           <Data/>
+          <Social />
+          <div className="home_img"></div>
+          <Data />
         </div>
-        <ScrollDown/>
+        <ScrollDown />
       </div>
     </section>
   )

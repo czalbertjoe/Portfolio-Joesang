@@ -8,6 +8,8 @@ import profileImage from './assets/Img/MyPhoto.jpg'
 import Social from './Components/home/Social'
 import Hom from './Components/home/Hom'
 import { About } from './Components/about/About'
+import Skills from './Components/skills/Skills'
+
 
 
 
@@ -51,6 +53,7 @@ function App() {
     <SideBarMenu items={items} card={card}></SideBarMenu>
     <Hom></Hom>
     <About></About>
+    <Skills></Skills>
   </div>
   );
 }
