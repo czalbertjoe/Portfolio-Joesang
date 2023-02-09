@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { icons } from 'react-icons/lib'
 import "./App.css"
-import { SideBarMenu } from './Components/SideBarMenu'
-import { SideBarMenuCard, SideBarMenuItem } from './Types/types'
+import { SideBarMenu } from './Components/sideBar/SideBarMenu'
+import { SideBarMenuCard, SideBarMenuItem } from './Components/sideBar/Types/types'
 import { FcAbout, FcBusiness, FcAddressBook, FcHome } from 'react-icons/fc'
 import profileImage from './assets/Img/MyPhoto.jpg'
 import Social from './Components/home/Social'

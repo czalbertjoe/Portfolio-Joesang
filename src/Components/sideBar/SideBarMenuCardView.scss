@@ -9,27 +9,30 @@
         box-sizing: border-box;
         max-width: 138px;
     }
-    .profileInfo{
+
+    .profileInfo {
         overflow: hidden;
         height: 10px;
-        font-weight:lighter;
-        font-family:'Times New Roman', Times, serif;
+        font-weight: lighter;
+        font-family: 'Times New Roman', Times, serif;
         @include transition(height);
 
-        &.collapse{
+        &.collapse {
             opacity: 0;
             height: 0;
             width: 0;
         }
-        .name{
+
+        .name {
             font-size: 23px;
             font-weight: bold;
         }
 
-        .url{
-            a{
+        .url {
+            a {
                 color: #dd7676;
-                &:hover{
+
+                &:hover {
                     color: aliceblue;
                 }
             }
