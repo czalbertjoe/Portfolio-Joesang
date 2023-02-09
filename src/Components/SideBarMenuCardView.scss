@@ -7,11 +7,11 @@
         border-radius: 40%;
         padding: 15px;
         box-sizing: border-box;
-        max-width: 178px;
+        max-width: 138px;
     }
     .profileInfo{
         overflow: hidden;
-        height: 130px;
+        height: 10px;
         font-weight:lighter;
         font-family:'Times New Roman', Times, serif;
         @include transition(height);
@@ -19,6 +19,7 @@
         &.collapse{
             opacity: 0;
             height: 0;
+            width: 0;
         }
         .name{
             font-size: 23px;

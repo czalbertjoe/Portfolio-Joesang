@@ -6,7 +6,7 @@ export const Social = () => {
         <a href="httmpInsta" className="home_social-icon" target="_blank">
         <i className="uil uil-instagram"></i>
         </a>
-        <a href="HttpGitHub" className="home_social-icon" target="_blank">
+        <a href="https://github.com/JoZhang06" className="home_social-icon" target="_blank">
         <i className="uil uil-github"></i>
         </a>
         <a href="HTTPlinkedin" className="home_social-icon" target="_blank">

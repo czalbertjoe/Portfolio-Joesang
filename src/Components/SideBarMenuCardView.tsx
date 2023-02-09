@@ -17,9 +17,7 @@ export default function SideBarMenuCardView({
         <div className={classNames('profileInfo', isOpen ? '' : 'collapsed')}>
                 <div className="name">{card.displayName}</div>
                 <div className="title">{card.title}</div>
-                <div className="url">
-                <a href={card.Url}>Go to profile</a>
-                </div>
+                
              </div>
         </div>   
     );

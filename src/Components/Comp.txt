@@ -1,2 +1,0 @@
-
-    <SideBarMenu items={items} card={card}></SideBarMenu>

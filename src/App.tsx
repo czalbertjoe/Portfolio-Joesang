@@ -23,13 +23,13 @@ function App() {
       id:'2',
       label: 'About',
       icon: FcAbout,
-      url: "/",
+      url: ".",
     },
     {
       id:'3',
       label: 'Projects',
       icon: FcBusiness,
-      url: "/",
+      url: "./Cmpo",
     },
     {
       id:'4',
@@ -41,8 +41,8 @@ function App() {
 
   const card: SideBarMenuCard = {
     id: "card01",
-    displayName: "Joesang Chang Zavala",
-    title: "Developer",
+    displayName: "",
+    title: "",
     photoUrl: profileImage,
     Url: "/"
   };
