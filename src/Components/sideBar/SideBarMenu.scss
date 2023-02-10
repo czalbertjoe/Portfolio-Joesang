@@ -14,7 +14,7 @@
     @include transition(width);
 
     &.expanded {
-        width: 230px;
+        width: 240px;
     }
 
     &.collapsed {
@@ -37,4 +37,100 @@
         width: 68px;
     }
 
+}
+
+@media screen and (max-width: 992px) {
+    .SideBarMenu {
+        background-image: radial-gradient(190deg, #051227, #1f4b8f, #1d8391, #96253d);
+        color: rgb(169, 231, 178);
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    
+        @include transition(width);
+    
+        &.expanded {
+            width: 170px;
+        }
+    
+        &.collapsed {
+            width: 80px;
+            top: 40;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .SideBarMenu {
+        background-image: radial-gradient(190deg, #051227, #1f4b8f, #1d8391, #96253d);
+        color: rgb(169, 231, 178);
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        @include transition(width);
+
+        &.expanded {
+            width: 120px;
+        }
+
+        &.collapsed {
+            width: 80px;
+            top: 40;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .SideBarMenu {
+        background-image: radial-gradient(190deg, #051227, #1f4b8f, #1d8391, #96253d);
+        color: rgb(169, 231, 178);
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        @include transition(width);
+
+        &.expanded {
+            width: 90px;
+        }
+
+        &.collapsed {
+            width: 80px;
+            top: 40;
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .SideBarMenu {
+        background-image: radial-gradient(190deg, #051227, #1f4b8f, #1d8391, #96253d);
+        color: rgb(169, 231, 178);
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        @include transition(width);
+
+        &.expanded {
+            width: 90px;
+        }
+
+        &.collapsed {
+            width: 80px;
+            top: 40;
+        }
+    }
 }

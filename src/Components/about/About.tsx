@@ -14,7 +14,7 @@ export const About = () => {
 
         <div className="about_data">
           <Info></Info>
-          <p className="about_description">Fronteend developer, I create web pages with UI / UX user interface.</p>
+          <p className="about_description">Fronteend and Backend Developer</p>
           <a download={CV} href="" className="button button--flex">Download CV</a>
         </div>
       </div>

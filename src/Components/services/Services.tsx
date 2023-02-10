@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import "./services.css"
+import webimg from "../../assets/IconImg/web_icon.png"
+import phoneimg from "../../assets/IconImg/phone_ic.png"
+import gameimg from "../../assets/IconImg/game_icon.png"
 
 const Services = () => {
 
@@ -10,16 +13,18 @@ const Services = () => {
   }
 
   return (
+    
     <section className="services section" id="services">
       <h2 className="section-title">Services</h2>
-      <span className="section-subtitle">What i offer</span>
+      <span className="section-subtitle">What can i offer</span>
 
       <div className="services-container container grid">
         <div className="services-content">
           <div>
-            <i className="uil uil-web-grid services-icon"></i>
+            <img src={webimg} alt="web_icon" className="imgicon" />
+            
             <h3 className="services-title">
-              Product <br /> Designer
+              Web  Design
             </h3>
           </div>
 
@@ -43,7 +48,7 @@ const Services = () => {
               ></i>
 
               <h3 className="Services-modal-tile">
-                Product <br /> Designer
+                Web Design
               </h3>
               <p className="services-modal-description">
                 Service with more than 3 months of experience. Providing quality
@@ -54,7 +59,7 @@ const Services = () => {
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    I develop the user interface.
+                    I create the user interface (UI).
                   </p>
                 </li>
               </ul>
@@ -62,7 +67,7 @@ const Services = () => {
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Web page development.</p>
+                  <p className="services-modal-info">I Develop the backend and frontend.</p>
                 </li>
               </ul>
 
@@ -70,7 +75,7 @@ const Services = () => {
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    I create ux element interactions.
+                    Languages as HTML, CSS, Typescript or JavaScript.
                   </p>
                 </li>
               </ul>
@@ -89,9 +94,9 @@ const Services = () => {
 
         <div className="services-content">
           <div>
-            <i className="uil uil-arrow services-icon"></i>
+          <img src={phoneimg} alt="phone_icon" className="imgicon" />
             <h3 className="services-title">
-              Ui/Ux <br /> Designer
+              Movil App Develop
             </h3>
           </div>
 
@@ -114,17 +119,16 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
               ></i>
 
-              <h3 className="Services-modal-tile">Ui/Ux Designer</h3>
+              <h3 className="Services-modal-tile">App Developer</h3>
               <p className="services-modal-description">
-                Service with more than 3 months of experience. Providing quality
-                work to clients and companies.
+                Service with more than a year of experience. Providing app interaction to android devices.
               </p>
 
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    I develop the user interface.
+                    I create the user interface (UI).
                   </p>
                 </li>
               </ul>
@@ -132,7 +136,7 @@ const Services = () => {
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Web page development.</p>
+                  <p className="services-modal-info">I Develop the code behind of aplication.</p>
                 </li>
               </ul>
 
@@ -140,7 +144,7 @@ const Services = () => {
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    I create ux element interactions.
+                    Using Unity or android studio.
                   </p>
                 </li>
               </ul>
@@ -159,9 +163,9 @@ const Services = () => {
 
         <div className="services-content">
           <div>
-            <i className="uil uil-edit services-icon"></i>
+          <img src={gameimg} alt="game_icon" className="imgicon" />
             <h3 className="services-title">
-              Visual <br /> Designer
+              Game Develop
             </h3>
           </div>
 
@@ -184,9 +188,9 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
               ></i>
 
-              <h3 className="Services-modal-tile">Visual Designer</h3>
+              <h3 className="Services-modal-tile">Game Develop</h3>
               <p className="services-modal-description">
-                Service with more than 3 months of experience. Providing quality
+                Service with more than 3 years of experience. Providing quality
                 work to clients and companies.
               </p>
 
@@ -194,7 +198,7 @@ const Services = () => {
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    I develop the user interface.
+                    I create the user interface (UI).
                   </p>
                 </li>
               </ul>
@@ -202,7 +206,7 @@ const Services = () => {
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Web page development.</p>
+                  <p className="services-modal-info">I Develop the code behind the game.</p>
                 </li>
               </ul>
 
@@ -210,7 +214,7 @@ const Services = () => {
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    I create ux element interactions.
+                    I create ux/ui/ai element interactions.
                   </p>
                 </li>
               </ul>

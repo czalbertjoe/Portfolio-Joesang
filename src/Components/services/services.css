@@ -6,9 +6,15 @@
 
 .services-content {
     position: relative;
-    border: 1.5px solid rgba(0, 0, 0, 0.1);
+    border: 2.5px solid rgba(0, 0, 0, 0.1);
     background-color: var(--container-color);
     padding: 6rem 0 2rem 2.5rem;
+    background-image: linear-gradient(190deg, #f6fffe, #bcd3eb, #a7b0c4, #d8b87efa);
+    color: #e8eec6;
+    margin-top: 70px;
+    border-radius: 30%;    
+    text-align: center;
+    text-indent: -13%;
 }
 
 .services-icon {
@@ -22,6 +28,7 @@
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-1);
     font-weight: var(--font-medium);
+    margin-left: -10px;
 }
 
 .services-button {
@@ -31,6 +38,7 @@
     align-items: center;
     column-gap: 0.25rem;
     cursor: pointer;
+    margin-right: 20px;
 }
 
 .services-button-icon {
@@ -48,7 +56,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(18, 23, 54, 0.712);
     z-index: var(--z-modal);
     display: flex;
     justify-content: center;
@@ -56,15 +64,18 @@
     padding: 0.1rem;
     opacity: 0;
     visibility: hidden;
-    transition: .3s;
+    transition: .4s;
 }
 
 .services-modal-content {
     width: 500px;
+    height: 430px;
     position: relative;
     background-color: var(--container-color);
     padding: 4.5rem 2.5rem 2.5rem;
-    border-radius: 1.5rem;
+    border-radius: 5rem;
+    background-image: linear-gradient(190deg, #2b635d, #2d5683, #31495c, #283a44fa);
+    color: #fefff5;
 }
 
 .services-modal-close {
@@ -110,12 +121,17 @@
 
 .services-modal-info {
     font-size: var(--small-font-size);
+    text-align: right;
 }
 
 /* Active Modal */
 .active-modal {
     opacity: 1;
     visibility: visible;
+}
+.imgicon{
+    height: 50px;
+    margin-right: 10px;
 }
 
 /* For large devices */
@@ -132,7 +148,7 @@
     }
 
     .services-content {
-        padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+        padding: 3.5rem 0.5rem 1.25rem 2.6rem;
     }
 
     .services-icon {
@@ -147,6 +163,15 @@
 
     .services-modal-description {
         padding: 0;
+    }
+    .services-button {
+        color: var(--title-color);
+        font-size: var(--small-font-size);
+        display: inline-flex;
+        align-items: center;
+        column-gap: 0.25rem;
+        cursor: pointer;
+        margin-right: 0px;
     }
 }
 
