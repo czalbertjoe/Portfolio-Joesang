@@ -55,6 +55,7 @@ function App() {
   return (
   <div>
     <SideBarMenu items={items} card={card}></SideBarMenu>
+    
     <Hom></Hom>
     <About></About>
     <Skills></Skills>

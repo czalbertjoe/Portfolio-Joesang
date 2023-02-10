@@ -12,6 +12,7 @@
 .footer_title{
     text-align: center;
     margin-bottom: var(--mb-2);
+    font-size: 40px;
 }
 .footer_link:hover{
     color: var(--title-color-dark);
@@ -34,4 +35,29 @@
     padding: 0.4rem;
     border-radius: 0.5rem;
     display: inline-flex;
+}
+.footer_social-link:hover{
+    background-color: rgb(191, 204, 214);
+}
+.footer_copy{
+    display: block;
+    margin-top: 4.5rem;
+    color: var(--title-color);
+    text-align: center;
+    font-size: var(--smaller-font-size);
+}
+
+@media screen and (max-width: 768px) {
+    .footer_social-link{
+        padding: 0.25rem;
+        border-radius: 0.25rem;
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 576px) {
+}
+/* For small devices */
+@media screen and (max-width: 350px) {
+
+    
 }

@@ -66,8 +66,17 @@ body,button,textarea,input{
   font-size:medium;
 }
 body{
-  background-image: linear-gradient(195deg, #000000, #050118, #041024, #112549, #193358,#304c7c,#446db3, #488ca1, #3f9fbd, #73c2d6 , #ce9326);
+  background: linear-gradient(195deg, #000000, #050118, #041024, #112549, #193358,#304c7c,#446db3, #488ca1, #3f9fbd, #73c2d6 , #ce9326);
   color: #cfe7e4;
+}
+.star0{
+  display: absolute;
+  width: 3%;
+}
+.star1{
+  display: absolute;
+  width: 3%;
+  margin-left: 200px;
 }
 h1, h2, h3{
   color: #cad5e2; 
@@ -91,6 +100,7 @@ img{
 /* Reusable css classes*/
 section{
   line-height: large;
+  margin-bottom: 150px
 }
 .section_title{
   font-size: x-large;

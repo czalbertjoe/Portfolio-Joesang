@@ -5,7 +5,7 @@ export const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer_container container">
-                <h1 className="footer_title">Chang</h1>
+                <h1 className="footer_title">End of trial</h1>
 
                 <ul className="footer_list">
                     <li>
@@ -35,8 +35,9 @@ export const Footer = () => {
                         <i className="bx bxl-facebook"></i>
                     </a>
                 </div>
-                <span className="footer_copy">&#196; ChangJoesang. All rights reserved</span>
+                <span className="footer_copy">@Chang Joesang. All rights reserved</span>
             </div>
         </footer>
   )
 }
+export default Footer
