@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { SideBarMenuCard, SideBarMenuItem } from "../sideBar/Types/types"
-import { classNames } from "../../assets/Util/classes"
+import { SideBarMenuCard, SideBarMenuItem } from "../Types/types"
+import { classNames } from "../../assets/Util/classes";
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import { createSvgIcon } from '@mui/material/utils';
