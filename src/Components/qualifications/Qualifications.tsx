@@ -53,7 +53,7 @@ const Qualification = () => {
                     Bachelor's computer engineering
                   </h3>
                   <span className="qualification-subtitle">
-                    Universidad Castro Carazo
+                    Castro Carazo - University
                   </span>
                   <div className="qualification-calender">
                     <i className="uil uil-calendar-alt"></i> 2019 - Present
@@ -82,7 +82,7 @@ const Qualification = () => {
                     MEP
                   </span>
                   <div className="qualification-calender">
-                    <i className="uil uil-calendar-alt"></i> 2012 - 2017
+                    <i className="uil uil-calendar-alt"></i> 2012 - 2016
                   </div>
                 </div>
               </div>

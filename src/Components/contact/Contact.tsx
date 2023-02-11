@@ -59,7 +59,7 @@ const Contact = () => {
 
               <h3 className="contact-card-title">Messenger</h3>
               <span className="contact-card-data">Chang Joesang</span>
-              <a href="" className="contact-button">
+              <a href="https://www.messenger.com/t/100001910748442" className="contact-button">
                 Write me{' '}
                 <i className="bx bx-right-arrow-alt contact-button-icon"></i>
               </a>

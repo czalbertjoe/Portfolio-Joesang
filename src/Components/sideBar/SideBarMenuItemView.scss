@@ -2,6 +2,7 @@
 
 .SideBarMenuItemView {
     text-align: right;
+    font-size: small;
     display: block;
     align-items: center;
 
@@ -21,6 +22,7 @@
         overflow: hidden;
         width: 100%;
         white-space: nowrap;
+        margin-top: -7px;
 
         @include transition(width);
 
@@ -30,12 +32,12 @@
 
         .icon {
             width: 20px;
-            height: 32px;
-            margin-top: 10%;
+            height: 40px;
+            margin-top: 3%;
         }
 
         .label {
-            font-weight: 500;
+            font-weight: 60;
             margin-left: 10px;
             overflow: hidden;
             margin-top: 0%;

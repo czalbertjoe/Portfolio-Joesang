@@ -14,7 +14,7 @@
     @include transition(width);
 
     &.expanded {
-        width: 240px;
+        width: 220px;
     }
 
     &.collapsed {

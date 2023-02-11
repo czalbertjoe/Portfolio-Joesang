@@ -72,18 +72,19 @@
 
 .qualification-rounder {
     display: inline-block;
-    width: 13px;
-    height: 13px;
-    background-color: var(--text-color);
-    border-radius: 50%;
+    width: 14px;
+    height: 10px;
+    background-color: #f8f0f0;
+    border-radius: 22%;
+    transform: translate(1px, -11px);
 }
 
 .qualification-line {
     display: block;
     width: 1px;
     height: 100%;
-    background-color: var(--text-color);
-    transform: translate(6px, -7px);
+    background-color:  #f8f0f0;
+    transform: translate(8px, -19px);
 } 
 .section-title-q{
     color: rgb(255, 255, 255);

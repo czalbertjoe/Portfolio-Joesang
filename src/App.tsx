@@ -4,6 +4,9 @@ import "./App.css"
 import { SideBarMenu } from './Components/sideBar/SideBarMenu'
 import { SideBarMenuCard, SideBarMenuItem } from './Components/sideBar/Types/types'
 import { FcAbout, FcBusiness, FcAddressBook, FcHome } from 'react-icons/fc'
+
+import abouticon from "./assets/IconImg/chat_service_icon.png"
+
 import profileImage from './assets/Img/MyPhoto.jpg'
 import Social from './Components/home/Social'
 import Hom from './Components/home/Hom'
@@ -23,13 +26,13 @@ function App() {
       id:'1',
       label: 'Home',
       icon: FcHome,
-      url: "/",
+      url: "#home",
     },
     {
       id:'2',
       label: 'About',
       icon: FcAbout,
-      url: ".",
+      url: "#about",
     },
     {
       id:'3',
@@ -41,7 +44,18 @@ function App() {
       id:'4',
       label: 'Contact',
       icon: FcAddressBook,
-      url: "/",
+      url: "#contact",
+    },{
+      id:'5',
+      label: 'Projects',
+      icon: FcBusiness,
+      url: "./Cmpo",
+    },
+    {
+      id:'6',
+      label: 'Contact',
+      icon: FcAddressBook,
+      url: "#contact",
     },
   ];
 
