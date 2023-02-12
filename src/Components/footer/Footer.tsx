@@ -5,20 +5,23 @@ export const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer_container container">
-                <h1 className="footer_title">End of trial</h1>
+                <h1 className="footer_title">End of trial dear reader</h1>
 
                 <ul className="footer_list">
                     <li>
-                        <a href="#" className="footer_link">About</a>
+                        <a href="#home" className="footer_link">Home</a>
                     </li>
                     <li>
-                        <a href="#" className="footer_link">Projects</a>
+                        <a href="#about" className="footer_link">About</a>
                     </li>
                     <li>
-                        <a href="#" className="footer_link">Skills</a>
+                        <a href="#skills" className="footer_link">Skills</a>
                     </li>
                     <li>
-                        <a href="#" className="footer_link"></a>
+                        <a href="#services" className="footer_link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#qualifications" className="footer_link">Qualifications</a>
                     </li>
                 </ul>
                 <div className="footer_social">
@@ -35,7 +38,7 @@ export const Footer = () => {
                         <i className="bx bxl-facebook"></i>
                     </a>
                 </div>
-                <span className="footer_copy">@Chang Joesang. All rights reserved</span>
+                <span className="footer_copy">Chang Joesang : All rights reserved</span>
             </div>
         </footer>
   )

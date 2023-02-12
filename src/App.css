@@ -65,22 +65,14 @@ body,button,textarea,input{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size:medium;
 }
-body{
-  background-image: url("/src/assets/Img/NightBackground.png");
+body{ 
   background-repeat: no-repeat;
   color: #cfe7e4;
   width: 100%;
   background-size: cover;
-}
-.star0{
-  display: absolute;
-  width: 3%;
-}
-.star1{
-  display: absolute;
-  width: 3%;
-  margin-left: 200px;
-}
+  background-image: url("/src/assets/Img/NightBackground.png");
+  z-index: -2;
+} 
 h1, h2, h3{
   color: #cad5e2; 
   font-weight: lighter;

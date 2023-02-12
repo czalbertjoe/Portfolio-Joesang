@@ -1,6 +1,7 @@
 .qualification-container {
     max-width: 768px;
     color: rgb(245, 219, 241);
+    padding-bottom: 18px;
 }
 
 .qualiification-tabs {

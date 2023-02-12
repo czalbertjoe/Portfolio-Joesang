@@ -129,6 +129,29 @@ const Qualification = () => {
                 </div>
               </div>
             </div>
+            
+            <div
+              className={
+                toggleState === 2
+                  ? 'qualification-content qualification-content-active'
+                  : 'qualification-content'
+              }
+            >
+              <div className="qualification-data">
+                <div>
+                  <h3 className="qualification-title">Freelancer</h3>
+                  <span className="qualification-subtitle">Freelance</span>
+                  <div className="qualification-calender">
+                    <i className="uil uil-calendar-alt"></i> 2020 - 2022
+                  </div>
+                </div>
+  
+                <div>
+                  <span className="qualification-rounder"></span>
+                  <span className="qualification-line"></span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -3,10 +3,9 @@ import { icons } from 'react-icons/lib'
 import "./App.css"
 import { SideBarMenu } from './Components/sideBar/SideBarMenu'
 import { SideBarMenuCard, SideBarMenuItem } from './Components/sideBar/Types/types'
-import { FcAbout, FcBusiness, FcAddressBook, FcHome } from 'react-icons/fc'
-
+import { FcHome, FcInfo, FcMultipleDevices, FcGraduationCap, FcIdea, FcSms} from 'react-icons/fc'
+import img from './assets/Img/NightBackground.png'
 import abouticon from "./assets/IconImg/chat_service_icon.png"
-
 import profileImage from './assets/Img/MyPhoto.jpg'
 import Social from './Components/home/Social'
 import Hom from './Components/home/Hom'
@@ -31,30 +30,30 @@ function App() {
     {
       id:'2',
       label: 'About',
-      icon: FcAbout,
+      icon: FcInfo,
       url: "#about",
     },
     {
       id:'3',
-      label: 'Projects',
-      icon: FcBusiness,
-      url: "./Cmpo",
+      label: 'Skills',
+      icon: FcIdea,
+      url: "#skills",
     },
     {
       id:'4',
-      label: 'Contact',
-      icon: FcAddressBook,
+      label: 'Services',
+      icon: FcMultipleDevices,
       url: "#contact",
     },{
       id:'5',
-      label: 'Projects',
-      icon: FcBusiness,
-      url: "./Cmpo",
+      label: 'Qualification',
+      icon: FcGraduationCap,
+      url: "#qualifications",
     },
     {
       id:'6',
       label: 'Contact',
-      icon: FcAddressBook,
+      icon: FcSms,
       url: "#contact",
     },
   ];
@@ -67,9 +66,8 @@ function App() {
     Url: "/"
   };
   return (
-  <div>
-    <SideBarMenu items={items} card={card}></SideBarMenu>
-    
+  <div> 
+    <SideBarMenu items={items} card={card}></SideBarMenu> 
     <Hom></Hom>
     <About></About>
     <Skills></Skills>
