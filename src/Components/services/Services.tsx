@@ -24,7 +24,7 @@ const Services = () => {
             <img src={webimg} alt="web_icon" className="imgicon" />
             
             <h3 className="services-title">
-              Web  Design
+              Web Design
             </h3>
           </div>
 
@@ -51,8 +51,7 @@ const Services = () => {
                 Web Design
               </h3>
               <p className="services-modal-description">
-                Service with more than 3 months of experience. Providing quality
-                work to clients and companies.
+              I provide service with experience of more than a year and a half and I also provide quality work for clients and companies
               </p>
 
               <ul className="services-modal-services grid">
@@ -67,7 +66,7 @@ const Services = () => {
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">I Develop the backend and frontend.</p>
+                  <p className="services-modal-info">Creating the design and visual aspects of a website.</p>
                 </li>
               </ul>
 
@@ -75,7 +74,7 @@ const Services = () => {
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    Languages as HTML, CSS, Typescript or JavaScript.
+                  Creative, graphic and technical skills.
                   </p>
                 </li>
               </ul>
@@ -84,7 +83,7 @@ const Services = () => {
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    I position your company brand.
+                  Frontend desing and backend develop too.
                   </p>
                 </li>
               </ul>
@@ -121,14 +120,14 @@ const Services = () => {
 
               <h3 className="Services-modal-tile">App Developer</h3>
               <p className="services-modal-description">
-                Service with more than a year of experience. Providing app interaction to android devices.
+              I don't have a lot of knowledge and experience but I have innovative applications like virtual assistant and AR technology.
               </p>
 
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    I create the user interface (UI).
+                  Creating code for programs that run applications.
                   </p>
                 </li>
               </ul>
@@ -136,7 +135,7 @@ const Services = () => {
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">I Develop the code behind of aplication.</p>
+                  <p className="services-modal-info">Design and plan new applications</p>
                 </li>
               </ul>
 
@@ -144,7 +143,7 @@ const Services = () => {
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    Using Unity or android studio.
+                  Use of various development environments such as ↓
                   </p>
                 </li>
               </ul>
@@ -153,7 +152,7 @@ const Services = () => {
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    I position your company brand.
+                    Unity, android studio and more.
                   </p>
                 </li>
               </ul>
@@ -190,15 +189,14 @@ const Services = () => {
 
               <h3 className="Services-modal-tile">Game Develop</h3>
               <p className="services-modal-description">
-                Service with more than 3 years of experience. Providing quality
-                work to clients and companies.
+              I have creating and designing video games with more than three years of experience and knowledge.
               </p>
 
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    I create the user interface (UI).
+                  Creation of the environment, scenes and interfaces.
                   </p>
                 </li>
               </ul>
@@ -206,7 +204,7 @@ const Services = () => {
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">I Develop the code behind the game.</p>
+                  <p className="services-modal-info">Develop of the code behind the game.</p>
                 </li>
               </ul>
 
@@ -214,7 +212,7 @@ const Services = () => {
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    I create ux/ui/ai element interactions.
+                    Creation of elements for interaction with the player
                   </p>
                 </li>
               </ul>
@@ -223,7 +221,7 @@ const Services = () => {
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    I position your company brand.
+                  Character design, settings and animations.
                   </p>
                 </li>
               </ul>

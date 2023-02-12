@@ -66,8 +66,11 @@ body,button,textarea,input{
   font-size:medium;
 }
 body{
-  background: linear-gradient(195deg, #000000, #050118, #041024, #112549, #193358,#304c7c,#446db3, #488ca1, #3f9fbd, #73c2d6 , #ce9326);
+  background-image: url("/src/assets/Img/NightBackground.png");
+  background-repeat: no-repeat;
   color: #cfe7e4;
+  width: 100%;
+  background-size: cover;
 }
 .star0{
   display: absolute;
