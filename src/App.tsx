@@ -15,6 +15,7 @@ import Services from './Components/services/Services'
 import Qualifications from './Components/qualifications/Qualifications'
 import Contact from './Components/contact/Contact'
 import { Footer } from './Components/footer/Footer'
+import Work from './Components/work/Work'
 
 
 
@@ -72,6 +73,7 @@ function App() {
     <About></About>
     <Skills></Skills>
     <Services></Services>
+    <Work></Work>
     <Qualifications></Qualifications>
     <Contact></Contact>
     <Footer></Footer>
