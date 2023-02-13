@@ -15,7 +15,7 @@ export const About = () => {
         <div className="about_data">
           <Info></Info>
           <p className="about_description">Fronteend and Backend Developer</p>
-          <a download={CV} href="" className="button button--flex">Download CV</a>
+          <a download={CV} href="" className="aboutBtn">Download CV</a>
         </div>
       </div>
     </section>
