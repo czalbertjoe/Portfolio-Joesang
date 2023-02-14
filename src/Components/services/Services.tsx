@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import "./services.css"
-import webimg from "../../assets/IconImg/web_icon.png"
-import phoneimg from "../../assets/IconImg/phone_ic.png"
-import gameimg from "../../assets/IconImg/game_icon.png"
+import webimg from '../../assets/IconImg/website.png';
+import phoneimg from '../../assets/IconImg/smartphone.png';
+import gameimg from '../../assets/IconImg/xboxl.png';
 
 const Services = () => {
 
