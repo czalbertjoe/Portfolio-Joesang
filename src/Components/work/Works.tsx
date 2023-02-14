@@ -1,5 +1,5 @@
 import "./work.css";
-import Work1 from '../../assets/ProjectImg/Work1.png';
+import progress from '../../assets/ProjectImg/progress.png';
 import Work2 from '../../assets/ProjectImg/Work2.png';
 import Work3 from '../../assets/ProjectImg/Work3.png';
 import Work4 from '../../assets/ProjectImg/Work4.png';
@@ -11,7 +11,7 @@ const Works = () => {
     <div className="work_container">
 
       <div className="work_card">
-      <img src={Work1} alt="Mouse" className="work_img" />
+      <img src={progress} alt="Mouse" className="work_img" />
           <div className="card-body">
             <h5 className="work_title">Day 1</h5>
             <p className="card-text">Progress</p>
