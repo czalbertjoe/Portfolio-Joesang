@@ -11,7 +11,7 @@ export const Data = () => {
       <p className="home_description">I'm Joesang a creative web designer, web developer, game developer, programmer and I also do some music and digital art.</p>
       <br></br><hr color="sky blue"></hr><br></br>
       <a href="#contact" className="sendBtn">Send me a message</a>   
-      <img src={message} alt="web_icon" width="37px" height="27px" className="icon" />
+      <img src={message} alt="web_icon" width="30px" height="27px" className="icon" />
       
     </div>
   )

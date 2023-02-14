@@ -9,15 +9,15 @@
 
 .footer_title,
 .footer_link {
-    color: rgb(146, 58, 41);
+    color: rgb(138, 47, 29);
 }
 
 .footer_title {
     text-align: center;
     margin-bottom: var(--mb-2);
     font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 1px 1px 9px rgb(213, 111, 80);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 9px rgb(218, 204, 154);
 }
 
 .footer_link:hover {
@@ -40,7 +40,6 @@
     font-size: x-large;
     text-shadow: 1px 1px 7px rgb(171, 207, 216);
 }
-
 .footer_social-link {
     background-color: rgb(132, 149, 163);
     color: rgb(107, 156, 156);
@@ -57,7 +56,7 @@
 .footer_copy {
     display: block;
     margin-top: 3rem;
-    color: rgb(67, 9, 9);
+    color: rgb(121, 25, 25);
     text-align: center;
     font-size: var(--medium-font-size);
 }

@@ -16,6 +16,7 @@ import Qualifications from './Components/qualifications/Qualifications'
 import Contact from './Components/contact/Contact'
 import { Footer } from './Components/footer/Footer'
 import Work from './Components/work/Work'
+import Scrollup from './Components/ScrollUp/Scrollup'
 
 
 
@@ -44,7 +45,7 @@ function App() {
       id:'4',
       label: 'Services',
       icon: FcMultipleDevices,
-      url: "#contact",
+      url: "#services",
     },{
       id:'5',
       label: 'Qualification',
@@ -77,6 +78,7 @@ function App() {
     <Qualifications></Qualifications>
     <Contact></Contact>
     <Footer></Footer>
+    <Scrollup></Scrollup>
   </div>
   );
 }

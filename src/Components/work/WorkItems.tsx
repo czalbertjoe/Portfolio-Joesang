@@ -6,7 +6,7 @@ const WorkItems = ({ item }) => {
       <img src={item.image} alt="" className="work-img" />
       <h3 className="work-title">{item.name}</h3>
       <a href={item.link} className="work-button">
-        Go project <i className="bx bx-right-arrow-alt work-button-icon"></i>
+        Go to page <i className="bx bx-right-arrow-alt work-button-icon"></i>
       </a>
     </div>
   );

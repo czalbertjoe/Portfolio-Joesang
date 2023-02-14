@@ -1,5 +1,5 @@
 .section_title{
-    text-shadow: 1px 1px 8px rgb(205, 213, 220);
+    text-shadow: 1px 1px 9px rgb(229, 234, 239);
 }
 .about_container {
     grid-template-columns: repeat(2, 1fr);

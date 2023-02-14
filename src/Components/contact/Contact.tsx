@@ -1,5 +1,8 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import email from "../../assets/IconImg/emaillogo.png"
+import whatsapp from "../../assets/IconImg/whatsapplogo.png"
+import messenger from "../../assets/IconImg/messengerlogo.png"
 import './contact.css'; 
 
 const Contact = () => {
@@ -27,7 +30,7 @@ const Contact = () => {
           <h3 className="contact-title">Talk to me</h3> 0
           <div className="contact-info">
             <div className="contant-card">
-              <i className="bx bx-mail-send contact-card-icon"></i>
+            <img src={email} alt="web_icon" className="contacticon" />
 
               <h3 className="contact-card-title">Email</h3>
               <span className="contact-card-data">joe.chang.9696@gmail.com</span>
@@ -41,7 +44,7 @@ const Contact = () => {
             </div>
 
             <div className="contant-card">
-              <i className="bx bxl-whatsapp contact-card-icon"></i>
+              <img src={whatsapp} alt="web_icon" className="contacticon" />
 
               <h3 className="contact-card-title">Whatsapp</h3>
               <span className="contact-card-data">506-8958-2947</span>
@@ -55,7 +58,7 @@ const Contact = () => {
             </div>
 
             <div className="contant-card">
-              <i className="bx bxl-messenger contact-card-icon"></i>
+            <img src={messenger} alt="web_icon" className="contacticon" />
 
               <h3 className="contact-card-title">Messenger</h3>
               <span className="contact-card-data">Chang Joesang</span>
