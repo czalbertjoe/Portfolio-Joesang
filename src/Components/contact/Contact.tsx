@@ -6,16 +6,13 @@ import messenger from "../../assets/IconImg/messengerlogo.png"
 import './contact.css'; 
 
 const Contact = () => {
-  const form = useRef();
+  const form: any = useRef();
 
-  const sendEmail = (e) => {
+  const sendEmail = (e : any) => {
     e.preventDefault();
 
     emailjs.sendForm(
-      'service_rru22wu', 
-      'template_76i2sw9', 
-      form.current, 
-      'lpVAfG04otitBv-JV'
+      'service_rru22wu', 'template_76i2sw9', form.current, 'lpVAfG04otitBv-JV'
       )
       e.target.reset()
   };
@@ -100,8 +97,6 @@ const Contact = () => {
               <label className="contact-form-tag">Project</label>
               <textarea
                 name="project"
-                cols="30"
-                rows="10"
                 className="contact-form-input"
                 placeholder="Write your project"
                 required

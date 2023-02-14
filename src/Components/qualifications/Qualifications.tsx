@@ -3,7 +3,7 @@ import './qualifications.css'
 
 const Qualification = () => {
     const [toggleState, setToggleState] = useState(1);
-    const toggleTab = index => {
+    const toggleTab = (index: any) => {
         setToggleState(index);
     };
   
