@@ -124,3 +124,9 @@
         gap: 0.5rem;
     }
   }
+
+  @media screen and (max-width: 250px) {
+    .qualification-data{
+        gap: 0.5rem;
+    }
+  }

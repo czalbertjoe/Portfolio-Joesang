@@ -3,7 +3,7 @@ import { icons } from 'react-icons/lib'
 import "./App.css"
 import { SideBarMenu } from './Components/sideBar/SideBarMenu'
 import { SideBarMenuCard, SideBarMenuItem } from './Components/sideBar/Types/types'
-import { FcHome, FcInfo, FcMultipleDevices, FcGraduationCap, FcIdea, FcSms} from 'react-icons/fc'
+import { FcHome, FcInfo, FcServices, FcGraduationCap, FcIdea, FcFeedback, FcApproval} from 'react-icons/fc'
 import img from './assets/Img/NightBackground.png'
 import abouticon from "./assets/IconImg/chat_service_icon.png"
 import profileImage from './assets/Img/MyPhoto.jpg'
@@ -44,18 +44,25 @@ function App() {
     {
       id:'4',
       label: 'Services',
-      icon: FcMultipleDevices,
+      icon: FcServices,
       url: "#services",
     },{
       id:'5',
+      label: 'Works',
+      icon: FcApproval,
+      url: "#work",
+    },
+    {
+      id:'6',
       label: 'Qualification',
       icon: FcGraduationCap,
       url: "#qualifications",
     },
+    
     {
-      id:'6',
+      id:'7',
       label: 'Contact',
-      icon: FcSms,
+      icon: FcFeedback,
       url: "#contact",
     },
   ];
