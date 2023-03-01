@@ -55,14 +55,14 @@
 .qualification-title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    color: rgb(229, 233, 19);
+    color: rgb(245, 246, 252);
 }
 
 .qualification-subtitle {
     display: inline-block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
-    color: rgb(230, 214, 129);
+    color: rgb(249, 255, 217);
 }
 
 
