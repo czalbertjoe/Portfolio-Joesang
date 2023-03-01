@@ -55,9 +55,9 @@ body,button,textarea,input{
 body{ 
   background-repeat: no-repeat;
   color: #cfe7e4;
+  background-image: linear-gradient(190deg, #000205, #031127, #1f5180, #4690bb, #7ebae2, #4169b3, #c98063, #ca8f42, #ddbb4b);
   width: 100%;
-  background-size: cover;
-  background-image: url("/src/assets/Img/NightBackground.png");
+  background-size: cover; 
   z-index: -10;
 } 
 h1, h2, h3{
