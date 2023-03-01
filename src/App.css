@@ -38,20 +38,7 @@
   --z-tooltip:10;
   --z-fixed:100;
   --z-modal:1000;
-}
- 
-  /* Responsive typography*/
- @media screen and (max-width: 992px) {
-  :root{
-    --big-font-size:2.75rem;
-    --h1-font-size:1.5rem;
-    --h2-font-size:1.25rem;
-    --h3-font-size:1rem;
-    --normal-font-size:0.983rem;
-    --small-font-size:0.813rem;
-    --smaller-font-size:0.75rem;
-      }
-}
+} 
 
 *{
   margin: 0;
@@ -71,7 +58,7 @@ body{
   width: 100%;
   background-size: cover;
   background-image: url("/src/assets/Img/NightBackground.png");
-  z-index: -2;
+  z-index: -10;
 } 
 h1, h2, h3{
   color: #cad5e2; 
@@ -178,6 +165,8 @@ button{
 .read-the-docs {
   color: #888;
 }
+/* Responsive typography*/
+ 
 @media screen and (max-width: 992px){ 
   .container{
     margin-left: var(--mb-1-5);
@@ -190,6 +179,15 @@ button{
     width: 22px;
     height: 22px;
   }
+  :root{
+    --big-font-size:2.75rem;
+    --h1-font-size:1.5rem;
+    --h2-font-size:1.25rem;
+    --h3-font-size:1rem;
+    --normal-font-size:0.983rem;
+    --small-font-size:0.813rem;
+    --smaller-font-size:0.75rem;
+      }
 }
 @media screen and (max-width: 768px){ 
   body{

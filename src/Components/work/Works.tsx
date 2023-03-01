@@ -8,7 +8,7 @@ import login from '../../assets/ProjectImg/login.png';
 const Works = () => {
   return (
 
-    <div className="work_container">
+    <div className="work_container" id="work">
 
       <div className="work_card">
       <img src={clock} alt="Mouse" className="work_img" />

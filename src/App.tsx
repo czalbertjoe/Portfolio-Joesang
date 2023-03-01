@@ -54,7 +54,7 @@ function App() {
     },
     {
       id:'6',
-      label: 'Qualification',
+      label: 'Qualifications',
       icon: FcGraduationCap,
       url: "#qualifications",
     },
