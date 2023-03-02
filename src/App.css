@@ -203,6 +203,17 @@ button{
 @media screen and (max-width: 576px){
 
 }
+
+@media screen and (max-width: 390px){
+  :root{
+    --big-font-size: 1.25rem;
+  }
+  .container{
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+}
+
 @media screen and (max-width: 350px){
   :root{
     --big-font-size: 1.25rem;

@@ -66,7 +66,7 @@ const Services = () => {
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Creating the design and visual aspects of a website.</p>
+                  <p className="services-modal-info">Design and visual aspects of a website.</p>
                 </li>
               </ul>
 
@@ -120,7 +120,7 @@ const Services = () => {
 
               <h3 className="Services-modal-tile">App Developer</h3>
               <p className="services-modal-description">
-              I don't have a lot of knowledge and experience but I have innovative applications like virtual assistant and AR technology.
+              Knowledge of innovative applications such as virtual assistant and AR technology.
               </p>
 
               <ul className="services-modal-services grid">
@@ -143,7 +143,7 @@ const Services = () => {
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                  Use of various development environments such as ↓
+                  Use of development environments such as ↓
                   </p>
                 </li>
               </ul>
@@ -196,7 +196,7 @@ const Services = () => {
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                  Creation of the environment, scenes and interfaces.
+                  Creation of scenes and interfaces.
                   </p>
                 </li>
               </ul>
@@ -212,7 +212,7 @@ const Services = () => {
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    Creation of elements for interaction with the player
+                    Coding of elements for interaction with the player
                   </p>
                 </li>
               </ul>

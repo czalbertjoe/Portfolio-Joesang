@@ -18,7 +18,7 @@
 }
 .show-scroll{
     bottom: 3rem;
-}
+} 
 /* For large devices */
 @media screen and (max-width: 992px) {
   .scrollup{
@@ -36,12 +36,25 @@
 }
 @media screen and (max-width: 576px) {
    
+}@media screen and (max-width: 390px) {
+
+  .scrollup{
+    right: 0.5rem;
+  }
+
+  .circle{
+    width: 22px;
+    height: 22px;
+    background-color: rgba(35, 35, 36, 0.425);
+    border-radius: 50%;
+    border: 1px solid rgb(97, 96, 96);
+  }
 }
 /* For small devices */
 @media screen and (max-width: 350px) {
 
      .scrollup{
-        right: 1rem;
+      right: 0.5rem;
      }
 }
 

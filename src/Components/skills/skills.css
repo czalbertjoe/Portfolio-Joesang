@@ -70,14 +70,26 @@
         padding: 1.5rem;
       }
   }
+
   @media screen and (max-width: 576px){
   
   }
+  
+  @media screen and (max-width: 390px){
+    .skills_box{
+        column-gap: 1.25rem;
+    }.skills_name{
+        font-size: var(--small-font-size);
+    }.skills_container{
+        grid-template-columns: repeat(1, 250px); 
+        justify-content: center;
+    }
+  }
+
   @media screen and (max-width: 350px){
     .skills_box{
         column-gap: 1.25rem;
     }.skills_name{
         font-size: var(--small-font-size);
     }
-
   }

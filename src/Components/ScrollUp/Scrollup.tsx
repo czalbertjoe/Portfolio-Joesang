@@ -9,9 +9,12 @@ export const Scrollup = () => {
         else scrollUp.classList.remove("show-scroll");
     })
     return (
-    <a href='#' className='scrollup'>
-       <i className='uil uil-arrow-up scrollup_icon'></i>
-    </a>
+    
+      <a href='#' className='scrollup'>
+        <div className='circle'> 
+          <i className='uil uil-arrow-up scrollup_icon'></i>
+        </div>
+      </a>
   )
 }
 export default Scrollup

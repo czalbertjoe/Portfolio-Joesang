@@ -185,6 +185,32 @@
     }
 }
 
+/* For cell devices */
+@media screen and (max-width: 390px) {
+    .services-container {
+        grid-template-columns: repeat(1, 170px);
+        justify-content: center;
+        column-gap: 1rem;
+    }
+
+    .services-content {
+        padding-right: 0.9rem;
+        padding-top: 1rem;
+    }
+    .services-modal-content {
+        padding: 6rem 2.2rem 2.5rem;
+    }
+
+    .services-modal-description {
+        margin-left: 20px;
+        text-align: center;
+        content: normal;
+    }
+    .Services-modal-tile {
+        margin-left: 25px;
+    }
+}
+
 /* For small devices */
 @media screen and (max-width: 350px) {
     .services_container {
