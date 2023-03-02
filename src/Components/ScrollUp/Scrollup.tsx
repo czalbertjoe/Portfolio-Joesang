@@ -11,9 +11,7 @@ export const Scrollup = () => {
     return (
     
       <a href='#' className='scrollup'>
-        <div className='circle'> 
           <i className='uil uil-arrow-up scrollup_icon'></i>
-        </div>
       </a>
   )
 }
