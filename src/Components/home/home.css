@@ -31,7 +31,7 @@
 .home_title {
     font-size: 50px;;
     margin-bottom: var(--mb-0-25);
-    text-shadow: 1px 1px 6px rgb(172, 198, 221);
+    text-shadow: 1px 1px 6px rgb(209, 219, 230);
 }
 
 .home_emote {
@@ -266,7 +266,7 @@
     .home_img {
         width: 180px;
         height: 180px;
-        margin-left: -90px;
+        margin-left: -80px;
     }
 
     .home_emote {
@@ -277,7 +277,7 @@
         display:flex;;
         row-gap: 1rem;
         height: 100px;
-        margin-left: 62%;
+        margin-left: 72%;
     }
 }
 /* For small devices */
