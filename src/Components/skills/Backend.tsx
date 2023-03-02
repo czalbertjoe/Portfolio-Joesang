@@ -17,21 +17,29 @@ export const Backend = () => {
                 </div>
 
                 <div className="skills_data">
-                <i className='bx bx-star'></i>
-
-                <div>
-                    <h3 className="skills_name">Node Js</h3>
-                    <span className="skills_level">Basic</span>
-                </div>
-                </div>
-
-
-                <div className="skills_data">
                 <i className='bx bxs-star-half' ></i>
 
                 <div>
                     <h3 className="skills_name">Java</h3>
                     <span className="skills_level">Intermediate</span>
+                </div>
+                </div>
+
+                <div className="skills_data">
+                <i className='bx bxs-star-half' ></i>
+
+                <div>
+                    <h3 className="skills_name">Python</h3>
+                    <span className="skills_level">Intermediate</span>
+                </div>
+                </div>
+
+                <div className="skills_data">
+                <i className='bx bx-star'></i>
+
+                <div>
+                    <h3 className="skills_name">Node Js</h3>
+                    <span className="skills_level">Basic</span>
                 </div>
                 </div>
 
@@ -61,7 +69,6 @@ export const Backend = () => {
                     <span className="skills_level">Intermediate</span>
                 </div>
                 </div>
-
 
             </div>
         </div>

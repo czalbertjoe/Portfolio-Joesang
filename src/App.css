@@ -56,7 +56,6 @@ body,button,textarea,input{
 }
 body{ 
   background-repeat: no-repeat;
-  color: #cfe7e4;
   width: 100%;
   z-index: -2;
 } 
