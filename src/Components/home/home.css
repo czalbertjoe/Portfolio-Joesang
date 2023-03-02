@@ -259,13 +259,14 @@
         font-size: smaller
     }
 }
+
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 390px) {
 
     .home_img {
         width: 180px;
         height: 180px;
-        margin-top: 30px;
+        margin-left: -90px;
     }
 
     .home_emote {
@@ -276,7 +277,26 @@
         display:flex;;
         row-gap: 1rem;
         height: 100px;
-        margin-left: 210%;
-        margin-top: 90px;
+        margin-left: 62%;
+    }
+}
+/* For small devices */
+@media screen and (max-width: 350px) {
+
+    .home_img {
+        width: 180px;
+        height: 180px;
+        margin-left: -11%;
+    }
+
+    .home_emote {
+        width: 22px;
+        height: 22px;
+    }
+    .home_social {
+        display:flex;;
+        row-gap: 1rem;
+        height: 100px;
+        margin-left: 116%;
     }
 }
