@@ -17,7 +17,7 @@ import Contact from './Components/contact/Contact'
 import { Footer } from './Components/footer/Footer'
 import Work from './Components/work/Work'
 import Scrollup from './Components/ScrollUp/Scrollup'
-
+import Stars from './Components/Stars/starts'
 
 
 
@@ -75,7 +75,7 @@ function App() {
     Url: "/"
   };
   return (
-  <div> 
+  <div>  
     <SideBarMenu items={items} card={card}></SideBarMenu> 
     <Hom></Hom>
     <About></About>
@@ -86,6 +86,7 @@ function App() {
     <Contact></Contact>
     <Footer></Footer>
     <Scrollup></Scrollup>
+    <Stars></Stars>
   </div>
   );
 }
