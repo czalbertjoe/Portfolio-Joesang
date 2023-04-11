@@ -18,6 +18,7 @@ import { Footer } from './Components/footer/Footer'
 import Work from './Components/work/Work'
 import Scrollup from './Components/ScrollUp/Scrollup'
 import Stars from './Components/Stars/starts'
+import Starstwo from './Components/Stars/starstwo'
 
 
 
@@ -87,6 +88,7 @@ function App() {
     <Footer></Footer>
     <Scrollup></Scrollup>
     <Stars></Stars>
+    <Starstwo></Starstwo>
   </div>
   );
 }
