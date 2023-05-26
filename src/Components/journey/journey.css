@@ -1,17 +1,17 @@
 
-.qualification-container {
+.journey-container {
     max-width: 768px;
     color: rgb(245, 219, 241);
     padding-bottom: 18px;
 }
 
-.qualiification-tabs {
+.journey-tabs {
     display: flex;
     justify-content: center;
     margin-bottom: var(--mb-2);
     color: rgb(245, 219, 241);
 }
-.qualification-button {
+.journey-button {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     color: var(--title-color);
@@ -19,46 +19,46 @@
     cursor: pointer;
 }
 
-.qualification-button:hover {
+.journey-button:hover {
     color: var(--title-color-dark);
 }
 
-.qualification-icon {
+.journey-icon {
     font-size: 1.8rem;
     margin-right: var(--mb-0-25);
 }
 
-.qualification-active {
+.journey-active {
     color: var(--title-color-dark);
 }
 
-.qualification-sections {
+.journey-sections {
     display: grid;
     grid-template-columns: 0.5fr;
     justify-content: center;
 }
 
-.qualification-content {
+.journey-content {
     display: none;
 }
 
-.qualification-content-active {
+.journey-content-active {
     display: block;
 }
 
-.qualification-data {
+.journey-data {
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
     column-gap: 1.5rem;
 }
 
-.qualification-title {
+.journey-title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     color: rgb(248, 230, 219);
 }
 
-.qualification-subtitle {
+.journey-subtitle {
     display: inline-block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
@@ -66,11 +66,11 @@
 }
 
 
-.qualification-calender {
+.journey-calender {
     font-size: var(--font-medium);
 }
 
-.qualification-rounder {
+.journey-rounder {
     display: inline-block;
     width: 14px;
     height: 10px;
@@ -79,7 +79,7 @@
     transform: translate(1px, -11px);
 }
 
-.qualification-line {
+.journey-line {
     display: block;
     width: 1px;
     height: 100%;
@@ -94,7 +94,7 @@
 }
 /* For large devices */
 @media screen and (max-width: 992px) {
-    .qualification-container {
+    .journey-container {
         margin-left: auto;
         margin-right: auto;
     }
@@ -102,47 +102,47 @@
   
   /* For medium devices */
   @media screen and (max-width: 768px) {
-    .qualification-container{
+    .journey-container{
         margin-left: var(--mb-1-5);
         margin-right: var(--mb-1-5);
     }
   }
   
   @media screen and (max-width: 576px) {
-    .qualification-sections{
+    .journey-sections{
         grid-template-columns: initial;
     }
 
-    .qualification-button{
+    .journey-button{
         margin: 0 var(--mb-0-75);
     }
   }
   
   /* For small devices */
   @media screen and (max-width: 350px) {
-    .qualification-data{
+    .journey-data{
         gap: 0.5rem;
     }
   }
 
   @media screen and (max-width: 250px) {
-    .qualification-data{
+    .journey-data{
         gap: 0.5rem;
     }
   }
-  .qualification-active {
+  .journey-active {
     color: rgb(255, 198, 128); 
 }
 
 
-  .qualification-content:nth-child(1) {
+  .journey-content:nth-child(1) {
     animation: fadeIn 0.3s ease-in-out forwards;
 }
 
-.qualification-content:nth-child(2) {
+.journey-content:nth-child(2) {
     animation: fadeIn 0.3s ease-in-out forwards;
 }
-.qualification-content:nth-child(3) {
+.journey-content:nth-child(3) {
     animation: fadeIn 0.3s ease-in-out forwards;
 }
 @keyframes fadeIn {

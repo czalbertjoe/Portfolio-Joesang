@@ -29,7 +29,7 @@ const Header = () => {
               </a>
             </li> 
             <li className="nav__item">
-              <a href="#works" className="nav_link">
+              <a href="#work" className="nav_link">
                 <i className="uil uil-scenery nav_icon">
                 </i>Woks
               </a>
@@ -37,7 +37,7 @@ const Header = () => {
               li className="nav__item">
               <a href="#journey" className="nav_link">
                 <i className="uil uil-scenery nav_icon">
-                </i>Journey
+                </i>journey
               </a>
             </li>
             <li className="nav_item">
