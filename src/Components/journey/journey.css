@@ -1,3 +1,4 @@
+
 .qualification-container {
     max-width: 768px;
     color: rgb(245, 219, 241);
@@ -35,7 +36,6 @@
     display: grid;
     grid-template-columns: 0.5fr;
     justify-content: center;
-    
 }
 
 .qualification-content {
@@ -55,7 +55,7 @@
 .qualification-title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    color: rgb(245, 246, 252);
+    color: rgb(248, 230, 219);
 }
 
 .qualification-subtitle {
@@ -130,3 +130,28 @@
         gap: 0.5rem;
     }
   }
+  .qualification-active {
+    color: rgb(255, 198, 128); 
+}
+
+
+  .qualification-content:nth-child(1) {
+    animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+.qualification-content:nth-child(2) {
+    animation: fadeIn 0.3s ease-in-out forwards;
+}
+.qualification-content:nth-child(3) {
+    animation: fadeIn 0.3s ease-in-out forwards;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,8 +1,8 @@
-import React from 'react'
-import "./about.css"
-import AboutImg from "../../assets/Img/MyProfile.jpg"
-import CV from "../../assets/SVG/ChangJa-ProfessionalCV.pdf"
-import Info from './info'
+import React from 'react';
+import './about.css';
+import AboutImg from '../../assets/ImgProfile/AboutBoy.png';
+import CV from '../../assets/Docs/CV_Joesang.pdf';
+import Info from './info';
 
 export const About = () => {
   return (
@@ -14,12 +14,15 @@ export const About = () => {
 
         <div className="about_data">
           <Info></Info>
-          <p className="about_description">Fronteend and Backend Developer</p>
-          <a download={CV} href="" className="aboutBtn">Download CV</a>
+          <p className="about_description">Full Stack Developer<br></br>
+          More information as resume <br></br>👇</p> 
+          <a download href={CV} className="aboutBtn">
+            Download 📁
+          </a>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;

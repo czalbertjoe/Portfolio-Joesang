@@ -49,7 +49,7 @@
 html {
   scroll-behavior: smooth;
   background-size: cover;
-  background-image: linear-gradient(190deg, #00091b, #051227, #1f4b8f, #1d7691, #be8735);
+  background-image: linear-gradient(190deg, #000613, #051735, #243075,#2b4991, #7357a9, #be6735);
 }
 
 body,
@@ -69,12 +69,12 @@ body {
 h1,
 h2,
 h3 {
-  color: #cad5e2;
-  font-weight: lighter;
+  color: #e9edaf;
+  font-weight:normal;
 }
 
 ul {
-  list-style: none;
+  list-style:none;
 }
 
 a {

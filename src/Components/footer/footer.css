@@ -9,7 +9,7 @@
 
 .footer_title,
 .footer_link { 
-    color: rgb(56, 15, 15);
+    color: rgb(242, 227, 194);
 }
 
 .footer_title {
@@ -19,7 +19,13 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 1px 1px 9px rgb(218, 204, 154);
 }
-
+.footer_subtitle{
+    text-align: center;
+    margin-bottom: var(--mb-1);
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 9px rgb(218, 204, 154);
+}
 .footer_link:hover {
     color: var(--title-color-dark);
 }

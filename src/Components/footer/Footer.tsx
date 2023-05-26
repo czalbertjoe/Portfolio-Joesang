@@ -5,8 +5,8 @@ export const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer_container container">
-                <h1 className="footer_title">End of trial dear reader</h1>
-
+                <h1 className="footer_title">End of trial dear reader</h1> 
+                <h2 className="footer_subtitle">Don't forget to contact me at my social media!</h2>
                 <ul className="footer_list">
                     <li>
                         <a href="#home" className="footer_link">Home</a>

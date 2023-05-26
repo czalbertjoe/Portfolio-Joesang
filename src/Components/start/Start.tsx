@@ -1,9 +1,12 @@
-import React from 'react'
-import "./home.css"
-import Social from './Social'
-import Data from './Data'
+import React, { useRef, useEffect } from 'react';
+import './start.css';
+import Social from './Social';
+import Data from './Data';
+import soundFile from '../../assets/Sounds/SongPrincipal.mp3'
 
-export const Hom = () => {
+const Hom = () => {
+ 
+
   return (
     <section className="home section" id="home">
       <div className="home_container container grid">
@@ -14,7 +17,7 @@ export const Hom = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Hom
+export default Hom;
