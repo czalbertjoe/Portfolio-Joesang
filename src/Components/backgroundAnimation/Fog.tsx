@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import cloudDarkImg from '/src/assets/ImgProfile/cloudDark.png';
 
 export const Fog = () => {
   useEffect(() => {
@@ -14,7 +15,7 @@ export const Fog = () => {
 
       const cloud = document.createElement('img');
       cloud.classList.add('cloud');
-      cloud.src = '../src/assets/IconImg/cloudDark.png'; // Ruta de la imagen
+      cloud.src = cloudDarkImg; // Ruta de la imagen
       cloud.style.top = `${Math.random() * 100 + 9}%`; // Generar posición vertical aleatoria entre 5% y 95%
       cloud.style.left = `${Math.random() * 90 + 3}%`; // Generar posición horizontal aleatoria entre 5% y 95%
       cloud.style.animationDelay = `${Math.random() * -3}s`;
