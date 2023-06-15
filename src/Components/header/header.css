@@ -20,8 +20,7 @@
 .nav_logo,
 .nav_toggle {
     color: rgb(248, 246, 212);
-    font-weight: 600;
-    margin-left: -80px;
+    font-weight: 600; 
 }
 
 .nav_list {
@@ -113,6 +112,66 @@
     }
 } 
 
+@media screen and (max-width:538px) {
+    .header {
+        top: initial;
+        bottom: 0;
+    } 
+    .nav {
+        height: 3rem;
+    }
+
+    .nav_menu {
+        position: fixed;
+        bottom: -100%;
+        left: 0;
+        width: 100%;
+        background-color: #24315e87;
+        padding: 3rem 1.5rem 4rem;
+        box-shadow: 0 -1px 4px rgba(5, 1, 201, 0.15);
+        border-radius: 2.5rem 2.5rem 0 0;
+        transition: .5s;
+    }
+
+    .show-menu{
+        bottom: 0;
+    }
+
+    .nav_list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .nav_icon {
+        font-size: 1.2rem;
+    }
+
+    .nav_close {
+        position: absolute;
+        right: 1.3rem;
+        bottom: .5rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: hsl(28, 85%, 63%);
+    }
+
+    .nav_close:hover{
+        color: #e4b57b;
+    }
+
+    .nav_toggle{
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    .nav_icon,
+    .nav_close,
+    .nav_toggle {
+        display: block;
+    }
+} 
+
 @media screen and (max-width:350px) {
     .nav_menu{
         padding: 2rem 0.25rem 4rem;
@@ -120,5 +179,8 @@
 
     .nav_list{
         column-gap: 0;
+    }
+    .nav_icon:hover{
+        color: #e4b57b;
     }
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Backend = () => {
+export const Databases = () => {
   return (
     <div className="skills_content">
         <h3 className="skills_title">Backend</h3>
@@ -75,4 +75,4 @@ export const Backend = () => {
     </div>
   )
 }
-export default Backend
+export default Databases

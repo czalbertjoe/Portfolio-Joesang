@@ -118,17 +118,7 @@ const Journey = () => {
                   <i className="uil uil-calendar-alt"></i> 2022
                 </div>
               </div>
-            </div>
-          </div>
 
-          <div
-            className={
-              toggleState === 2
-                ? 'journey-content journey-content-active'
-                : 'journey-content'
-            }
-          >
-            <div className="journey-data">
               <div>
                 <h3 className="journey-title">Freelancer</h3>
                 <span className="journey-subtitle">Freelance</span>
@@ -142,7 +132,7 @@ const Journey = () => {
                 <span className="journey-line"></span>
               </div>
             </div>
-          </div>
+          </div> 
         </div>
       </div>
     </section>

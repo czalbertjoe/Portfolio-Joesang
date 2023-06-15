@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Frontend = () => {
+export const Technologies = () => {
   return (
     <div className="skills_content">
         <h3 className="skills_title">Frontend</h3>
@@ -75,4 +75,4 @@ export const Frontend = () => {
   )
 }
 
-export default Frontend
+export default Technologies

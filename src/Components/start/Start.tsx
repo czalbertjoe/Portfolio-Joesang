@@ -1,8 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import './start.css';
 import Social from './Social';
-import Data from './Data';
-import soundFile from '../../assets/Sounds/SongPrincipal.mp3'
+import Data from './Data'; 
 
 const Hom = () => {
  
