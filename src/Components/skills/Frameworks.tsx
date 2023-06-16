@@ -3,16 +3,53 @@ import React from 'react'
 export const Frameworks = () => {
   return (
     <div className="skills_content">
-        <h3 className="skills_title">Frontend</h3>
+        <h3 className="skills_title">Framework</h3>
 
         <div className="skills_box">
-            <div className="skills_group">
-                <div className="skills_data">
-                <i className='bx bxs-star-half' ></i>
+            <div className="skills_group">  
+
+            <div className="skills_data">
+                <i className='bx bx-star'></i>
 
                 <div>
-                    <h3 className="skills_name">HTML</h3>
+                    <h3 className="skills_name">React js</h3>
+                    <span className="skills_level">Basic</span>
+                </div>
+                </div>
+
+                <div className="skills_data">
+                <i className='bx bx-star'></i>
+                
+                <div>
+                    <h3 className="skills_name">Next</h3>
                     <span className="skills_level">Intermediate</span>
+                </div>
+                </div>
+
+
+                <div className="skills_data">
+                <i className='bx bxs-star-half' ></i>
+                <div>
+                    <h3 className="skills_name">Node</h3>
+                    <span className="skills_level">Intermediate</span>
+                </div>
+                </div>
+
+                <div className="skills_data">
+                <i className='bx bx-star'></i>
+
+
+                <div>
+                    <h3 className="skills_name">Laravel</h3>
+                    <span className="skills_level">Basic</span>
+                </div>
+                </div>
+
+                <div className="skills_data">
+                <i className='bx bx-star' ></i>
+                <div>
+                    <h3 className="skills_name">Express</h3>
+                    <span className="skills_level">Basic</span>
                 </div>
                 </div>
 
@@ -20,59 +57,23 @@ export const Frameworks = () => {
                 <i className='bx bxs-star' ></i>
 
                 <div>
-                    <h3 className="skills_name">CSS</h3>
+                    <h3 className="skills_name">Asp.net</h3>
                     <span className="skills_level">Advanced</span>
                 </div>
                 </div>
 
+
                 <div className="skills_data">
-                <i className='bx bx-star'></i>
+                <i className='bx bx-star' ></i>
 
                 <div>
-                    <h3 className="skills_name">JavaScript</h3>
+                    <h3 className="skills_name">Redwood</h3>
                     <span className="skills_level">Basic</span>
-                </div>
-                </div>
-
-                <div className="skills_data">
-                <i className='bx bx-star'></i>
-
-                <div>
-                    <h3 className="skills_name">TypeScript</h3>
-                    <span className="skills_level">Basic</span>
-                </div>
-                </div>
-
-                <div className="skills_data">
-                <i className='bx bxs-star-half' ></i>
-
-                <div>
-                    <h3 className="skills_name">Git</h3>
-                    <span className="skills_level">Intermediate</span>
-                </div>
-                </div>
-
-                <div className="skills_data">
-                <i className='bx bxs-star' ></i>
-
-                <div>
-                    <h3 className="skills_name">Bootstrap</h3>
-                    <span className="skills_level">Advanced</span>
-                </div>
-                </div>
-
-                <div className="skills_data">
-                <i className='bx bxs-star-half' ></i>
-
-                <div>
-                    <h3 className="skills_name">React</h3>
-                    <span className="skills_level">Intermediate</span>
-                </div>
                 </div>
             </div>
+          </div>
         </div>
     </div>
   )
 }
-
 export default Frameworks

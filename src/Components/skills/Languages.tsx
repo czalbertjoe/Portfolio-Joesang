@@ -3,16 +3,33 @@ import React from 'react'
 export const Languages = () => {
   return (
     <div className="skills_content">
-        <h3 className="skills_title">Frontend</h3>
+        <h3 className="skills_title">Languages</h3>
 
         <div className="skills_box">
             <div className="skills_group">
-                <div className="skills_data">
+            <div className="skills_data">
                 <i className='bx bxs-star-half' ></i>
 
                 <div>
-                    <h3 className="skills_name">HTML</h3>
+                    <h3 className="skills_name">C#</h3>
                     <span className="skills_level">Intermediate</span>
+                </div>
+                </div>
+                <div className="skills_data">
+                <i className='bx bxs-star-half'></i>
+                
+
+                <div>
+                    <h3 className="skills_name">Java</h3>
+                    <span className="skills_level">Intermediate</span>
+                </div>
+                </div> 
+                <div className="skills_data">
+                <i className='bx bxs-star' ></i>
+
+                <div>
+                    <h3 className="skills_name">HTML</h3>
+                    <span className="skills_level">Advanced</span>
                 </div>
                 </div>
 
@@ -32,8 +49,7 @@ export const Languages = () => {
                     <h3 className="skills_name">JavaScript</h3>
                     <span className="skills_level">Basic</span>
                 </div>
-                </div>
-
+                </div> 
                 <div className="skills_data">
                 <i className='bx bx-star'></i>
 
@@ -42,33 +58,23 @@ export const Languages = () => {
                     <span className="skills_level">Basic</span>
                 </div>
                 </div>
-
                 <div className="skills_data">
                 <i className='bx bxs-star-half' ></i>
 
                 <div>
                     <h3 className="skills_name">Git</h3>
                     <span className="skills_level">Intermediate</span>
+                </div> 
                 </div>
-                </div>
-
                 <div className="skills_data">
-                <i className='bx bxs-star' ></i>
+                <i className='bx bx-star'></i>
 
                 <div>
-                    <h3 className="skills_name">Bootstrap</h3>
-                    <span className="skills_level">Advanced</span>
+                    <h3 className="skills_name">PHP</h3>
+                    <span className="skills_level">Basic</span>
                 </div>
                 </div>
-
-                <div className="skills_data">
-                <i className='bx bxs-star-half' ></i>
-
-                <div>
-                    <h3 className="skills_name">React</h3>
-                    <span className="skills_level">Intermediate</span>
-                </div>
-                </div>
+               
             </div>
         </div>
     </div>
