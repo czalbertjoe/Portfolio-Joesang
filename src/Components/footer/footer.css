@@ -201,15 +201,13 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) and (max-width: 444px){
-
+@media screen and (max-width: 250px) and (max-width: 444px){
+    .footer_link { 
+        color: rgb(241, 241, 241); 
+    }
     .footer_container {
         padding: 1rem, 0 6rem;
-    }
-
-    .footer_container {
-        padding: 1rem, 0 6rem;
-    }
+    } 
 
     .footer_list {
         display: flex;
@@ -223,8 +221,9 @@
         display: flex;
         justify-content: center;
         margin-left: 0px;
+        margin-top: 30px;
+        height: 34px;
         column-gap: 1.25rem;
-        font-size: x-large;
-        text-shadow: 1px 1px 7px rgb(171, 207, 216);
+        font-size: x-large; 
     }
 }
