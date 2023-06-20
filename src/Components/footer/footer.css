@@ -169,8 +169,8 @@
 }
 /* For cell devices */
 
-@media screen and (max-width: 390px) {
-
+@media screen and (min-width: 445px) and (max-width: 575px) {
+ 
     .footer_container {
         padding: 1rem, 0 6rem;
     }
@@ -187,11 +187,13 @@
         margin-left: 0px;
     }
     .footer_link { 
-        color: rgb(56, 15, 15); 
+        color: rgb(241, 241, 241); 
     }
     .footer_social {
         display: flex;
         justify-content: center;
+        margin-top: 30px;
+        height: 35px;
         column-gap: 1.25rem;
         font-size: x-large;
         text-shadow: 1px 1px 7px rgb(171, 207, 216);
@@ -199,7 +201,7 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 350px) and (max-width: 444px){
 
     .footer_container {
         padding: 1rem, 0 6rem;
