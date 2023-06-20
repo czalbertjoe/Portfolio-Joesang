@@ -18,10 +18,10 @@ export const Footer = () => {
                         <a href="#skills" className="footer_link">Skills</a>
                     </li>
                     <li>
-                        <a href="#services" className="footer_link">Services</a>
+                        <a href="#work" className="footer_link">Works</a>
                     </li>
                     <li>
-                        <a href="#qualifications" className="footer_link">Qualifications</a>
+                        <a href="#journey" className="footer_link">Journey</a>
                     </li>
                 </ul>
                 <div className="footer_social">

@@ -9,25 +9,26 @@
 
 .footer_title,
 .footer_link { 
-    color: rgb(242, 227, 194);
+    color: rgb(252, 250, 248);
 }
 
 .footer_title {
     text-align: center;
     margin-bottom: var(--mb-2);
     font-size: 30px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 1px 1px 9px rgb(218, 204, 154);
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 9px rgb(82, 81, 80);
 }
 .footer_subtitle{
     text-align: center;
-    margin-bottom: var(--mb-1);
-    font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 1px 1px 9px rgb(218, 204, 154);
+    color: rgb(64, 36, 110);
+    margin-bottom: var(--mb-2);
+    font-size: 22px;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 9px rgb(255, 255, 255);
 }
 .footer_link:hover {
-    color: var(--title-color-dark);
+    color:rgb(104, 109, 218);
 }
 
 .footer_list {
@@ -39,16 +40,45 @@
 }
 
 .footer_social {
-    display: flex;
+    display: flex; 
     justify-content: center;
+    height: 43px;
     margin-left: 100px;
-    column-gap: 1.25rem;
-    font-size: x-large;
-    text-shadow: 1px 1px 7px rgb(171, 207, 216);
+    column-gap: 1.05rem;
+    font-size: xx-large; 
 }
+.footer_social-icon { 
+    color: rgb(202, 202, 225);  
+  }
+  
+  .footer_social-icon[href*="instagram"] { 
+    color: rgb(245, 225, 228);
+    background: rgb(113,50,214);
+    background: linear-gradient(137deg, rgba(113,50,214,1) 0%, rgba(219,77,204,1) 24%, rgba(198,54,22,1) 51%, rgba(206,111,20,1) 80%, rgba(219,214,15,1) 98%);
+    border-radius: 40%;  
+  }
+  
+  .footer_social-icon[href*="github"] { 
+    color: rgb(255, 252, 252);
+    background-color: #080808;
+    border-radius: 40%; 
+  }
+  
+  .footer_social-icon[href*="linkedin"] { 
+    color: rgb(211, 221, 239);
+    background-color: #335392;
+    border-radius: 40%; 
+  }
+  
+  .footer_social-icon[href*="facebook"] { 
+    color: #e6e9f0;
+    background-color: #3163c7;
+    border-radius: 40%; 
+  }
+  
 .footer_social-link {
     background-color: rgb(132, 149, 163);
-    color: rgb(107, 156, 156);
+    color: rgb(212, 228, 228);
     font-size: 1.25;
     padding: 0.4rem;
     border-radius: 0.5rem;
@@ -62,7 +92,7 @@
 .footer_copy {
     display: block;
     margin-top: 3rem;
-    color: rgb(56, 15, 15);
+    color: rgb(220, 204, 204);
     text-align: center;
     font-size: var(--medium-font-size);
 }

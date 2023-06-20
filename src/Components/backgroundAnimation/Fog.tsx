@@ -16,7 +16,7 @@ export const Fog = () => {
       const cloud = document.createElement('img');
       cloud.classList.add('cloud');
       cloud.src = cloudDarkImg; // Ruta de la imagen
-      cloud.style.top = `${Math.random() * 100 + 9}%`; // Generar posición vertical aleatoria entre 5% y 95%
+      cloud.style.top = `${Math.random() * 100 + 12}%`; // Generar posición vertical aleatoria entre 5% y 95%
       cloud.style.left = `${Math.random() * 90 + 3}%`; // Generar posición horizontal aleatoria entre 5% y 95%
       cloud.style.animationDelay = `${Math.random() * -3}s`;
       container.appendChild(cloud);

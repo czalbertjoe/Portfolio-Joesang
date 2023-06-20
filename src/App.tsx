@@ -16,8 +16,7 @@ import Work from './Components/work/Work'
 import Stars from './Components/backgroundAnimation/starts'
 import Starstwo from './Components/backgroundAnimation/starstwo'  
 import Fog from './Components/backgroundAnimation/Fog'   
-import React, { useRef, useEffect } from 'react'; 
-import soundFile from './assets/Sounds/SongPrincipal.mp3' 
+import React, { useRef, useEffect } from 'react';  
 import Header from './Components/header/Header'
 
 function App() {
@@ -31,8 +30,7 @@ function App() {
   
   return (
    
-  <div>    
-  <audio ref={audioRef} src={soundFile} autoPlay loop />     
+  <div>        
     <Header></Header>
     <Hom></Hom>
     <About></About>
