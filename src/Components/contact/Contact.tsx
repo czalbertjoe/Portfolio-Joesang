@@ -98,7 +98,7 @@ const Contact = () => {
               <textarea
                 name="project"
                 className="contact-form-input"
-                placeholder="Write your project"
+                placeholder="Write your project" 
                 required
               ></textarea>
             </div>

@@ -89,6 +89,7 @@
 
 .contact-form-input {
     position: absolute;
+    color:#c7ceef;
     top: 0;
     left: 0;
     width: 100%;
@@ -124,7 +125,11 @@
 
 .contact-form-area textarea {
     resize: none;
-}
+} 
+.contact-form-div ::placeholder{
+    resize: none;
+    color: #e2e6fb;
+} 
 
 .buttonSend {
     background-color: #c7ceef;
