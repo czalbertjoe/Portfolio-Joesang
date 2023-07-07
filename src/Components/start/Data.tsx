@@ -8,7 +8,7 @@ export const Data = () => {
       <h1 className="home_title">Chang Joesang</h1>
       <img src={glasses} alt="web_icon" className='home_emote' width="10px" height="120px"  />
       <h3 className="home_subtitle">Designer and Developer</h3>
-      <p className="home_description">I'm Joe, a creative web designer, web developer, game designer, game developer, movile app developer, desktop app developer/designer and I also do some music and digital art.</p>
+      <p className="home_description">I'm Joe, a creative web designer, web developer, game designer, game developer, mobile app developer, desktop app developer/designer and I also do some music and digital art.</p>
       <br></br><hr color="sky blue"></hr><br></br>
       <a href="#contact" className="sendBtn">Send me a message</a>   
       <img src={message} alt="web_icon" width="30px" height="27px" className="icon" />
