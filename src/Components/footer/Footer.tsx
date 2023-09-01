@@ -24,10 +24,7 @@ export const Footer = () => {
                         <a href="#journey" className="footer_link">Journey</a>
                     </li>
                 </ul>
-                <div className="footer_social">
-                    <a href="https://www.instagram.com/joesang06/" className="footer_social-icon" target="_blank">
-                        <i className="bx bxl-instagram"></i>
-                    </a>
+                <div className="footer_social"> 
                     <a href="https://github.com/JoZhang06" className="footer_social-icon" target="_blank">
                         <i className="bx bxl-github"></i>
                     </a>

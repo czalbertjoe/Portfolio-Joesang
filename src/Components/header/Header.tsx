@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav container" id="container">
-        <a className="nav_logo">Welcome to my portfolio!</a>
+        <a className="nav_logo">Welcome to my animated portfolio!</a>
         <div className={Toggle ? "nav_menu show-menu" :
           "nav_menu"}>
           <ul className="nav_list grid">

@@ -43,20 +43,13 @@
     display: flex; 
     justify-content: center;
     height: 43px;
-    margin-left: 100px;
+    margin-left: 125px;
     column-gap: 1.05rem;
     font-size: xx-large; 
 }
 .footer_social-icon { 
     color: rgb(202, 202, 225);  
-  }
-  
-  .footer_social-icon[href*="instagram"] { 
-    color: rgb(245, 225, 228);
-    background: rgb(113,50,214);
-    background: linear-gradient(137deg, rgba(113,50,214,1) 0%, rgba(219,77,204,1) 24%, rgba(198,54,22,1) 51%, rgba(206,111,20,1) 80%, rgba(219,214,15,1) 98%);
-    border-radius: 40%;  
-  }
+  } 
   
   .footer_social-icon[href*="github"] { 
     color: rgb(255, 252, 252);

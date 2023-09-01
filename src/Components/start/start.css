@@ -13,13 +13,13 @@
     display:flex;
     column-gap: 0.7rem;
     height: 100px;
-    margin-left: 315%;
+    margin-left: 328%;
     margin-bottom: 360%;
 }
 
 .home_social-icon {
 
-    font-size: 1.50rem;
+    font-size: 1.70rem;
     color: var(--title-color);
     margin-left: 0px;
 }
@@ -64,7 +64,7 @@
 }
 
 .home_img {
-    background: url(../../assets/ImgProfile/MyPhoto.jpg);
+    background: url(../../assets/ImgProfile/ManWhithACapAllColor.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -73,35 +73,11 @@
     justify-self: center;
     width: 280px;
     height: 280px;
-    margin-bottom: 70px;
-    border-radius: 30%;
-    animation: profile_animate 2s ease-in-out infinite 0.9s;
+    margin-bottom: 70px; 
+    border-radius: 45% 45% 45% 45%;
     position: relative; 
     z-index: 100;  
-} 
-@keyframes profile_animate {
-    0% {
-        border-radius: 100%;
-    }
-    10% {
-        border-radius: 45%;
-    }
-    15% {
-        border-radius: 100%;
-    }
-    45% {
-        border-radius: 45%;
-    }
-    60% {
-        border-radius: 100%;
-    }
-    65% {
-        border-radius: 45%;
-    } 
-    100% {
-        border-radius: 100%;
-    }
-} 
+}  
 
 .sendBtn{
     color: #baa5ee; 
