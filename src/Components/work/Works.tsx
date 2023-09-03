@@ -1,7 +1,7 @@
 import "./work.css";
 import clock from '../../assets/ProjectImg/clock.png';
-import animcard from '../../assets/ProjectImg/animationcard.png';
-import choose from '../../assets/ProjectImg/choose.png';
+import insect from '../../assets/ProjectImg/InsectGame.png';
+import ColorFull from '../../assets/ProjectImg/Colorfull.png';
 import login from '../../assets/ProjectImg/login.png';
 
 
@@ -16,27 +16,27 @@ const Works = () => {
             <h5 className="work_title">Clock</h5>
             <p className="card-text">A css clock</p>
             <p className="card-text">Web Page</p>
-            <a href="https://vercel.com/jozhang06/day-19-joesang" className="work_title_link" target={'_blank'} >View</a>
+            <a href="https://day-19-joesang.vercel.app/" className="work_title_link" target={'_blank'} >View Page</a>
           </div>
       </div> 
 
       <div className="work_card">
-      <img src={animcard} alt="Mouse" className="work_img" />
+      <img src={insect} alt="Mouse" className="work_img" />
           <div className="card-body">
-            <h5 className="work_title">Background Slider</h5>
-            <p className="card-text">A css slider</p>
+            <h5 className="work_title">Insect Game</h5>
+            <p className="card-text">Hard level insect game</p>
             <p className="card-text">Web Page</p>
-            <a href="https://vercel.com/jozhang06/day-18-joesang" className="work_title_link" target={'_blank'} >View</a>
+            <a href="https://day-50-joesang.vercel.app/" className="work_title_link" target={'_blank'} >View Page</a>
           </div>
       </div> 
 
       <div className="work_card">
-      <img src={choose} alt="Mouse" className="work_img" />
+      <img src={ColorFull} alt="Mouse" className="work_img" />
           <div className="card-body">
-            <h5 className="work_title">Social Media Followers</h5>
-            <p className="card-text"></p>
+            <h5 className="work_title">Overboard</h5>
+            <p className="card-text">Colorful Overboard</p>
             <p className="card-text">Web Page</p>
-            <a href="https://day-15-joesang.vercel.app/" className="work_title_link" target={'_blank'} >View</a>
+            <a href="https://day-36-joesang.vercel.app/" className="work_title_link" target={'_blank'} >View Page</a>
           </div>
       </div> 
 
@@ -46,7 +46,7 @@ const Works = () => {
             <h5 className="work_title">Css Login</h5>
             <p className="card-text">User Login</p>
             <p className="card-text">Web Page</p>
-            <a href="https://day-8-joesang.vercel.app/" className="work_title_link" target={'_blank'} >View</a>
+            <a href="https://day-8-joesang.vercel.app/" className="work_title_link" target={'_blank'} >View Page</a>
           </div>
       </div>     
       </div>
