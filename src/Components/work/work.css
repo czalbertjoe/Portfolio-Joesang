@@ -29,7 +29,9 @@
     border-radius: 10px;
     border: 1px solid rgba(39, 176, 255, 0.2);
   }
-  
+  .work_img_pic{
+    margin: auto;
+  }
   .card-body {
     padding: 20px;
     text-align: center;

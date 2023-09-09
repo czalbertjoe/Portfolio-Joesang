@@ -2,7 +2,7 @@ import "./work.css";
 import clock from '../../assets/ProjectImg/clock.png';
 import insect from '../../assets/ProjectImg/InsectGame.png';
 import ColorFull from '../../assets/ProjectImg/Colorfull.png';
-import login from '../../assets/ProjectImg/login.png';
+import jGentleman from '../../assets/ProjectImg/Jgentleman.png';
 
 
 const Works = () => {
@@ -11,38 +11,34 @@ const Works = () => {
     <div className="work_container" id="work">
 
       <div className="work_card">
-      <img src={clock} alt="Mouse" className="work_img" />
+      <a className="work_img_pic" href="https://day-19-joesang.vercel.app/"><img src={clock} alt="Mouse" className="work_img" /></a>
           <div className="card-body">
             <h5 className="work_title">Clock</h5>
-            <p className="card-text">A css clock</p> 
-            <a href="https://day-19-joesang.vercel.app/" className="work_title_link" target={'_blank'} >View Page</a>
-          </div>
+            <p className="card-text">A clock made with CSS that changes from "light" mode to "dark" mode</p> 
+           </div>
       </div> 
 
       <div className="work_card">
-      <img src={insect} alt="Mouse" className="work_img" />
+      <a className="work_img_pic" href="https://day-50-joesang.vercel.app/"><img src={insect} alt="Mouse" className="work_img" /></a>
           <div className="card-body">
             <h5 className="work_title">Insect Game</h5>
-            <p className="card-text">Hard level insect game</p> 
-            <a href="https://day-50-joesang.vercel.app/" className="work_title_link" target={'_blank'} >View Page</a>
-          </div>
+            <p className="card-text">Difficult level insect game, where you have to catch them all (50 day project)</p> 
+            </div>
       </div> 
 
       <div className="work_card">
-      <img src={ColorFull} alt="Mouse" className="work_img" />
+      <a className="work_img_pic" href="https://day-36-joesang.vercel.app/"><img src={ColorFull} alt="Mouse" className="work_img" /></a>
           <div className="card-body">
             <h5 className="work_title">Overboard</h5>
-            <p className="card-text">Colorful Overboard</p> 
-            <a href="https://day-36-joesang.vercel.app/" className="work_title_link" target={'_blank'} >View Page</a>
+            <p className="card-text">Colorful Overboard (50 day project)</p>  
           </div>
       </div> 
 
       <div className="work_card">
-      <img src={login} alt="Mouse" className="work_img" />
+      <a className="work_img_pic" href="https://just-gentleman-e-commerce.vercel.app/"><img src={jGentleman} alt="Mouse" className="work_img" /></a>
           <div className="card-body">
-            <h5 className="work_title">Css Login</h5>
-            <p className="card-text">User Login</p> 
-            <a href="https://day-8-joesang.vercel.app/" className="work_title_link" target={'_blank'} >View Page</a>
+            <h5 className="work_title">Just Gentleman</h5>
+            <p className="card-text">An Ecommerce project based on a men's store<br></br>(Spanish)</p>  
           </div>
       </div>     
       </div>
