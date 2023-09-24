@@ -8,19 +8,31 @@
     background-color: rgba(20, 44, 88, 0.253);
     font-family: 'Poppins', sans-serif; 
 } 
+/* Agrega un nombre a la animación */
+@keyframes moveNavItems {
+    0% {
+        transform: translateX(0); /* Posición inicial */
+    }
+    50% {
+        transform: translateX(20px); /* Mueve 20px hacia la derecha a la mitad de la animación */
+    }
+    100% {
+        transform: translateX(0); /* Regresa a la posición inicial */
+    }
+}
+
 .nav {
     height: 5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     column-gap: 4rem;
     font-family: 'Poppins', sans-serif;
-}
-
-.nav_logo,
-.nav_toggle {
-    color: rgb(248, 246, 212);
-    font-weight: 600; 
+    overflow: hidden; 
+    white-space: nowrap; 
+} 
+.nav a {
+    animation: moveNavItems 5s linear infinite;/
 }
 
 .nav_list {

@@ -9,7 +9,7 @@
 }
 
 .about_img {
-    width: 400px;
+    width: 350px;
     border-radius: 1.5rem;
     justify-self: center; 
     margin-top: 30px;
@@ -39,7 +39,7 @@
 .about_box {
     background-image: linear-gradient(150deg, #9ea6cf, #c2d4e6, #a1b0d1, #8593a5fa);
     border: 3px solid #707b86;
-    border-radius: 1.5rem;
+    border-radius: 5.5rem;
     text-align: center;
     padding: 1.10rem 1.35rem;
     color: #301746;
