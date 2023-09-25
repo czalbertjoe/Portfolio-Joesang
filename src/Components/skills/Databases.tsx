@@ -62,16 +62,6 @@ export const Databases = () => {
                 </div>
                 </div>
 
-
-                <div className="skills_data">
-                <i className='bx bx-star' ></i>
-
-                <div>
-                    <h3 className="skills_name">MariaDB</h3>
-                    <span className="skills_level">Basic</span>
-                </div>
-            </div>
-
             <div className="skills_data">
                 <i className='bx bx-star' ></i>
 

@@ -12,8 +12,8 @@ export const Frameworks = () => {
                 <i className='bx bx-star'></i>
 
                 <div>
-                    <h3 className="skills_name">React js</h3>
-                    <span className="skills_level">Basic</span>
+                    <h3 className="skills_name">React.js</h3>
+                    <span className="skills_level">Intermediate</span>
                 </div>
                 </div>
 
@@ -21,7 +21,7 @@ export const Frameworks = () => {
                 <i className='bx bx-star'></i>
                 
                 <div>
-                    <h3 className="skills_name">Next</h3>
+                    <h3 className="skills_name">Next.js</h3>
                     <span className="skills_level">Intermediate</span>
                 </div>
                 </div>
@@ -30,25 +30,15 @@ export const Frameworks = () => {
                 <div className="skills_data">
                 <i className='bx bxs-star-half' ></i>
                 <div>
-                    <h3 className="skills_name">Node</h3>
+                    <h3 className="skills_name">Node.js</h3>
                     <span className="skills_level">Intermediate</span>
                 </div>
-                </div>
-
-                <div className="skills_data">
-                <i className='bx bx-star'></i>
-
-
-                <div>
-                    <h3 className="skills_name">Laravel</h3>
-                    <span className="skills_level">Basic</span>
-                </div>
-                </div>
+                </div> 
 
                 <div className="skills_data">
                 <i className='bx bx-star' ></i>
                 <div>
-                    <h3 className="skills_name">Express</h3>
+                    <h3 className="skills_name">Express.js</h3>
                     <span className="skills_level">Basic</span>
                 </div>
                 </div>

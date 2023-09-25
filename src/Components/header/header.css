@@ -27,12 +27,13 @@
     justify-content: center;
     align-items: center;
     column-gap: 4rem;
-    font-family: 'Poppins', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     overflow: hidden; 
     white-space: nowrap; 
 } 
 .nav a {
-    animation: moveNavItems 5s linear infinite;/
+    font-size: large;
+    animation: moveNavItems 5s linear infinite;
 }
 
 .nav_list {

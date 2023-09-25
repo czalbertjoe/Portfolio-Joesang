@@ -3,8 +3,8 @@ import blender from '../../assets/IconImg/blender.png'
 
 export const Technologies = () => {
   return (
-    <div className="skills_content">
-        <h3 className="skills_title">Applications and Technologies</h3>
+    <div className="skills_content_tech">
+        <h3 className="skills_title">Technologies</h3>
 
         <div className="skills_box">
             <div className="skills_group">
@@ -51,14 +51,6 @@ export const Technologies = () => {
 
                 <div>
                     <h3 className="skills_name">Android Studio</h3> 
-                </div><br></br>
-                </div>
-
-                <div className="skills_data">
-                <i className='bx bx-edit-alt bx-tada' ></i>
-
-                <div>
-                    <h3 className="skills_name">Photoshop/Krita/<br></br>Inkscape</h3> 
                 </div><br></br>
                 </div>
                 <div className="skills_data">
