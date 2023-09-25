@@ -1,7 +1,7 @@
 import "./work.css";
 import clock from '../../assets/ProjectImg/clock.png';
-import insect from '../../assets/ProjectImg/InsectGame.png';
-import ColorFull from '../../assets/ProjectImg/Colorfull.png';
+import Game from '../../assets/ProjectImg/Game.jpg';
+import aria from '../../assets/ProjectImg/Aria.jpg';
 import jGentleman from '../../assets/ProjectImg/Jgentleman.png';
 
 
@@ -14,23 +14,23 @@ const Works = () => {
       <a className="work_img_pic" href="https://day-19-joesang.vercel.app/"><img src={clock} alt="Mouse" className="work_img" /></a>
           <div className="card-body">
             <h5 className="work_title">Clock</h5>
-            <p className="card-text">A clock made with CSS that changes from "light" mode to "dark" mode</p> 
+            <p className="card-text">A clock that changes from "light" mode to "dark" mode</p> 
            </div>
       </div> 
 
       <div className="work_card">
-      <a className="work_img_pic" href="https://day-50-joesang.vercel.app/"><img src={insect} alt="Mouse" className="work_img" /></a>
+      <a className="work_img_pic" href="https://play.google.com/store/apps/details?id=com.J3ALWGames&hl=es_VE"><img src={Game} alt="Mouse" className="work_img" /></a>
           <div className="card-body">
-            <h5 className="work_title">Insect Game</h5>
-            <p className="card-text">Difficult level insect game, where you have to catch them all (50 day project)</p> 
+            <h5 className="work_title">Go 2D Space</h5>
+            <p className="card-text">Videogame programmed in c# using Unity</p> 
             </div>
       </div> 
 
       <div className="work_card">
-      <a className="work_img_pic" href="https://day-36-joesang.vercel.app/"><img src={ColorFull} alt="Mouse" className="work_img" /></a>
+      <a className="work_img_pic" href="https://github.com/JoZhang06/Virtual_Assistant_-ARIA-"><img src={aria} alt="Mouse" className="work_img" /></a>
           <div className="card-body">
-            <h5 className="work_title">Overboard</h5>
-            <p className="card-text">Colorful Overboard (50 day project)</p>  
+            <h5 className="work_title">Virtual Assistant</h5>
+            <p className="card-text">Virtual Assistant using aumented reality and c#</p>  
           </div>
       </div> 
 
