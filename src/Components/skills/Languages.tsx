@@ -43,11 +43,11 @@ export const Languages = () => {
                 </div>
 
                 <div className="skills_data">
-                <i className='bx bx-star'></i>
+                <i className='bx bxs-star-half'></i>
 
                 <div>
                     <h3 className="skills_name">JavaScript</h3>
-                    <span className="skills_level">Basic</span>
+                    <span className="skills_level">Intermediate</span>
                 </div>
                 </div> 
                 <div className="skills_data">
@@ -56,6 +56,14 @@ export const Languages = () => {
                 <div>
                     <h3 className="skills_name">TypeScript</h3>
                     <span className="skills_level">Basic</span>
+                </div>
+                </div>
+                <div className="skills_data">
+                <i className='bx bxs-star-half'></i>
+
+                <div>
+                    <h3 className="skills_name">Python</h3>
+                    <span className="skills_level">Intermediate</span>
                 </div>
                 </div>
                 <div className="skills_data">

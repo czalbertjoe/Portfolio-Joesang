@@ -9,7 +9,7 @@ export const Frameworks = () => {
             <div className="skills_group">  
 
             <div className="skills_data">
-                <i className='bx bx-star'></i>
+                <i className='bx bxs-star-half'></i>
 
                 <div>
                     <h3 className="skills_name">React.js</h3>
@@ -18,7 +18,7 @@ export const Frameworks = () => {
                 </div>
 
                 <div className="skills_data">
-                <i className='bx bx-star'></i>
+                <i className='bx bxs-star-half'></i>
                 
                 <div>
                     <h3 className="skills_name">Next.js</h3>
