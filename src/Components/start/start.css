@@ -62,16 +62,12 @@
     max-width: 400px;
     margin-bottom: var(--mb-3);
 }
-
-@keyframes scaleAnimation {
-    0% {
-        transform: scale(1);
+@keyframes combinedAnimation {
+    0%, 100% {
+        transform: scale(0.91) translateX(0%);
     }
     50% {
-        transform: scale(0.9);
-    }
-    100% {
-        transform: scale(1);
+        transform: scale(1) translateX(10%);
     }
 }
 
@@ -89,7 +85,7 @@
     border-radius: 45% 45% 45% 45%;
     position: relative; 
     z-index: 100;
-    animation: scaleAnimation 3s infinite; /* Agregamos la animación */
+    animation: combinedAnimation 5s infinite; /* Utilizamos la animación combinada */
 }
 
 .home_img::before {
