@@ -5,7 +5,7 @@ export const Technologies = () => {
   return (
     <div className="skills_content_tech">
         <h3 className="skills_title">Technologies</h3>
-
+        <br></br>
         <div className="skills_box">
             <div className="skills_group">
                 <div className="skills_data">
@@ -20,7 +20,7 @@ export const Technologies = () => {
                 <i className='bx bxl-visual-studio' ></i>
 
                 <div>
-                    <h3 className="skills_name">VS and Vs-Code</h3> 
+                    <h3 className="skills_name">Visual Studio/Code</h3> 
                 </div><br></br>
                 </div> 
 
@@ -54,20 +54,12 @@ export const Technologies = () => {
                 </div><br></br>
                 </div>
                 <div className="skills_data">
-                <i className='bx bxs-music' ></i>
+                <i className='bx bxs-music bx-tada' ></i>
 
                 <div>
                     <h3 className="skills_name">FL Studio</h3> 
                 </div><br></br>
-                </div>
-                
-                <div className="skills_data">
-                <i className='bx bx-video bx-tada' ></i>
-
-                <div>
-                    <h3 className="skills_name">Wondershare</h3> 
-                </div><br></br>
-                </div>
+                </div> 
             </div>
         </div>
     </div>
