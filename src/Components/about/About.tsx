@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import AboutImg from '../../assets/ImgProfile/CV_Joesang_Img.jpg';
+import AboutImg from '../../assets/ImgProfile/AboutEn.png';
 import CV from '../../assets/Docs/Joesang_Chang_CV.pdf';
 import Info from './info';
 
@@ -8,7 +8,7 @@ export const About = () => {
   return (
     <section className="about section" id="about">
       <h2 className="section_title">About Me</h2>
-      <span className="section_subtitle">My resume</span>
+      <span className="section_subtitle">my information</span>
       <div className="about_container container grid">
         <img src={AboutImg} alt="" className="about_img" />
 

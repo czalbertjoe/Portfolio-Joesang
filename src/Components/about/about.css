@@ -13,23 +13,23 @@
     border-radius: 1.5rem;
     justify-self: center; 
     margin-top: 30px;
-    animation: floatAnimation 3s infinite;
+    animation: floatAnimation 5s infinite;
     position: relative; 
     z-index: 100;  
 
 } 
 @keyframes floatAnimation {
     0% {
-        transform: translateY(-10px);
+        transform: translateY(-10px) scale(1.17);
     }
     50% {
-        transform: translateY(10px); 
+        transform: translateY(10px) scale(1.25); 
     }
     100% {
-        transform: translateY(-10px);
+        transform: translateY(-10px) scale(1.17);
     }
 }
- 
+
 .about_info {
     grid-template-columns: repeat(3, 150px);
     gap: 0.9rem;
