@@ -1,3 +1,9 @@
+ 
+p{ 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-size:large;
+}
+
 .home_container {
     row-gap: 7rem;
 }
@@ -62,17 +68,9 @@
     max-width: 400px;
     margin-bottom: var(--mb-3);
 }
-@keyframes combinedAnimation {
-    0%, 100% {
-        transform: scale(0.91) translateX(0%);
-    }
-    50% {
-        transform: scale(1) translateX(10%);
-    }
-}
-
+ 
 .home_img {
-    background: url(../../assets/ImgProfile/foto.jpg);
+    background: url(../../assets/ImgProfile/ProfilePic.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -84,8 +82,7 @@
     margin-bottom: 70px; 
     border-radius: 45% 45% 45% 45%;
     position: relative; 
-    z-index: 100;
-    animation: combinedAnimation 5s infinite; /* Utilizamos la animación combinada */
+    z-index: 100; 
 }
 
 .home_img::before {
@@ -97,6 +94,17 @@
     height: 100%;
     background-color: rgba(63, 29, 66, 0.2); /* Ajusta la opacidad para controlar la oscuridad */
     border-radius: inherit;
+}
+@keyframes shakeAnimation {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px) rotate(-5deg); }
+    50% { transform: translateX(5px) rotate(5deg); }
+    75% { transform: translateX(-5px) rotate(-5deg); }
+    100% { transform: translateX(0) rotate(0); }
+}
+
+.home_img:hover {
+    animation: shakeAnimation 0.5s ease;
 }
 
 .sendBtn{

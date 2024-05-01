@@ -8,7 +8,6 @@
     background-color: rgba(9, 27, 61, 0.253);
     font-family: 'Poppins', sans-serif; 
 } 
-/* Agrega un nombre a la animación */
 @keyframes moveNavItems {
     0% {
         transform: translateX(0); /* Posición inicial */
@@ -21,19 +20,24 @@
     }
 }
 
-.nav {
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('../../assets//Fonts/ChillPixels-Maximal.otf') format('truetype');
+  }
+.nav {    
     height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 4rem;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     overflow: hidden; 
     white-space: nowrap; 
 } 
 .nav a {
     font-size: large;
-    animation: moveNavItems 5s linear infinite;
+    animation: moveNavItems 5s linear infinite;     
+    font-family: 'MyFont', sans-serif;  
 }
 
 .nav_list {
@@ -48,7 +52,7 @@
     font-size: 1rem;
     color: #f2f4bf;
     font-weight: 500;
-    transition: .3s;
+    transition: .1s;
     text-decoration: none;
 }
 

@@ -45,14 +45,23 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   scroll-behavior: smooth;
   background-size: cover;
   
   background-image: linear-gradient(190deg, #000000, #0a1a36, #374b77,#374b7a, rgb(40, 57, 93), #83a2e7);
+} 
+@font-face {
+  font-family: 'MyFont';
+  src: url('./assets//Fonts/NeverMindHand-ExtraLight.ttf') format('truetype');
 }
 
+h1, h2{ 
+  font-family: 'MyFont', sans-serif;  
+}
+h4{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 body,
 button,
 textarea,
@@ -65,7 +74,7 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   z-index: -2;
-}
+} 
 
 h1,
 h2,
