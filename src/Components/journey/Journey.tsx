@@ -51,7 +51,7 @@ const Journey = () => {
                 <h3 className="journey-title">Bachelor's computer engineering</h3>
                 <span className="journey-subtitle">Castro Carazo - University</span>
                 <div className="journey-calender">
-                  <i className="uil uil-calendar-alt"></i> 2019 - Present
+                  <i className="uil uil-calendar-alt"></i> 2019 - 2023
                 </div>
               </div>
 
