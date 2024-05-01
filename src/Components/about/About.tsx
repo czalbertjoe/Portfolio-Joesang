@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
-import AboutImg from '../../assets/ImgProfile/AboutEn.png';
-import CV from '../../assets/Docs/Joesang_Chang_CV.pdf';
+import AboutImg from '../../assets/ImgProfile/BoyJoeColor.png';
+import CV from '../../assets/Docs/CVJoeEnglish.pdf';
 import Info from './info';
 
 export const About = () => {
@@ -15,7 +15,7 @@ export const About = () => {
         <div className="about_data">
           <Info></Info>
           <p className="about_description">Full Stack Developer<br></br>
-          More information as resume <br></br>👇</p> 
+          All information as resume <br></br>👇</p> 
           <a download href={CV} className="aboutBtn">
             Download 📁
           </a>
