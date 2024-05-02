@@ -25,10 +25,10 @@ export const Footer = () => {
                     </li>
                 </ul>
                 <div className="footer_social"> 
-                    <a href="https://github.com/JoZhang06" className="footer_social-icon" target="_blank">
+                    <a href="https://github.com/czalbertjoe" className="footer_social-icon" target="_blank">
                         <i className="bx bxl-github"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/jchang-z/" className="footer_social-icon" target="_blank">
+                    <a href="https://www.linkedin.com/in/czalbertjoe/" className="footer_social-icon" target="_blank">
                         <i className="bx bxl-linkedin"></i>
                     </a>
                     <a href="https://www.facebook.com/joe.changzavala" className="footer_social-icon" target="_blank">

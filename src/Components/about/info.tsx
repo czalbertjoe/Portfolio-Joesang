@@ -13,13 +13,13 @@ export const Info = () => {
       <div className="about_box">
       <i className='bx bxs-face about_icon'></i>
         <h3 className="about_title">Languages</h3>
-        <span className="about_subtitle">Spanish/English/ Learning japanese</span>
+        <span className="about_subtitle">Spanish/English/ Learning Korean</span>
       </div>
 
       <div className="about_box">
       <i className='bx bx-headphone about_icon' ></i>
         <h3 className="about_title">Other</h3>
-        <span className="about_subtitle">Technlogies, Programs, support 24/7</span>
+        <span className="about_subtitle">Technlogies, Programs, Onnline 24/7</span>
       </div>
     </div>
   )

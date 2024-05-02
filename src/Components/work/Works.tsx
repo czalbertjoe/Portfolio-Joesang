@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./work.css";
 import RMBlue from '../../assets/ProjectImg/RetroMediaBlue.jpg';
 import Game from '../../assets/ProjectImg/Game.jpg';
@@ -6,38 +6,12 @@ import aria from '../../assets/ProjectImg/Aria.jpg';
 import jGentleman from '../../assets/ProjectImg/Jgentleman.png';
 
 const Works = () => {
-  const [showModal, setShowModal] = useState(false);
-  const [redirectUrl, setRedirectUrl] = useState('');
-
-  const handleModalOpen = (url : any) => {
-    setRedirectUrl(url);
-    setShowModal(true);
-  };
-
-  const handleModalClose = () => {
-    setShowModal(false);
-  };
-
-  const handleRedirect = () => {
-    if (redirectUrl) {
-      window.location.href = redirectUrl;
-    }
-  };
 
   return (
     <div className="work_container" id="work">
-      {showModal && (
-        <div className="modal" onClick={handleModalClose}>
-          <div className="modal_content" onClick={(e) => e.stopPropagation()}>
-            <p>Hola, la página siguiente te llevará a Vercel, sin embargo, la aplicación se fabricó usando Rapid API, lo que puede generar una alerta de Phishing si tienes algún protector contra malware.</p>
-            <button onClick={handleRedirect}>Continuar</button>
-            <button onClick={handleModalClose}>Cancelar</button>
-          </div>
-        </div>
-      )}
 
       <div className="work_card">
-        <div className="work_img_pic" onClick={() => handleModalOpen("https://retro-media-blue.vercel.app/")}>
+        <div className="work_img_pic" onClick={() => window.open("https://retro-media-blue.vercel.app/", "_blank")}>
           <img src={RMBlue} alt="Retro Media Blue" className="work_img" />
         </div>
         <div className="card-body">
